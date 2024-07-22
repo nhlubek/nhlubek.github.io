@@ -15,6 +15,12 @@ about:
       href: mailto:niklas.hlubek@yahoo.de
 ---
 
-Education 
+introduction paragraph hello world!
 
-Experience
+## Education
+
+that stuff
+
+## Experience
+
+this stuff

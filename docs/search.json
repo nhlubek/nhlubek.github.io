@@ -4,7 +4,21 @@
     "href": "index.html",
     "title": "Niklas Hlubek",
     "section": "",
-    "text": "Education\nExperience"
+    "text": "introduction paragraph hello world!"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Niklas Hlubek",
+    "section": "Education",
+    "text": "Education\nthat stuff"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Niklas Hlubek",
+    "section": "Experience",
+    "text": "Experience\nthis stuff"
   },
   {
     "objectID": "about.html",
