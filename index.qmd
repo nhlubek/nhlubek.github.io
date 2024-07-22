@@ -1,7 +1,20 @@
 ---
-title: "nhlubek.github.io"
+title: "Niklas Hlubek"
+image: Pictures/placeholder.jpg
+toc: false
+about: 
+  template: trestles
+  image-shape: rectangle
+  image-width: 10em
+  links: 
+    - text: LinkedIn
+      href: https://www.linkedin.com/
+    - text: GitHub
+      href: https:www.github.com/
+    - text: Email
+      href: mailto:niklas.hlubek@yahoo.de
 ---
 
-This is a Quarto website.
+Education 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Experience
