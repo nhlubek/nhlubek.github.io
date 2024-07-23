@@ -1,6 +1,6 @@
 ---
 title: "Niklas Hlubek"
-image: pictures/placeholder.jpg
+image: placeholder.jpg
 toc: false
 about: 
   template: trestles
