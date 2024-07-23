@@ -6,11 +6,21 @@ website:
   navbar:
     title: "Niklas Hlubek"
     background: primary
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
-      - resources.qmd
+      - href: resources.qmd
+        text: Resources
+      - href: files/CV.pdf
+        target: _blank
+      - icon: github
+        href: https://github.com/nhlubek
+        target: _blank
+  page-footer: 
+    background: light
+    left: Copyright 2024, Niklas Hlubek
+    right: This website is built with  [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/nhlubek/nhlubek.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:

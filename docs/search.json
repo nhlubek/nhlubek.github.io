@@ -4,27 +4,34 @@
     "href": "index.html",
     "title": "Niklas Hlubek",
     "section": "",
-    "text": "introduction paragraph hello world!"
+    "text": "I am a social scientist with background in this and that and a PhD too"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Niklas Hlubek",
+    "section": "",
+    "text": "I am a social scientist with background in this and that and a PhD too"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Niklas Hlubek",
     "section": "Education",
-    "text": "Education\nthat stuff"
+    "text": "Education\nway too much"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Niklas Hlubek",
     "section": "Experience",
-    "text": "Experience\nthis stuff"
+    "text": "Experience\nquite some actually"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "Something about me\nMy experiences …\nMy interests …"
   }
 ]
