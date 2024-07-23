@@ -3,8 +3,11 @@ project:
   output-dir: docs
 
 website:
+  favicon: files/N.png
   navbar:
     title: "Niklas Hlubek"
+    #logo: files/N.png
+    #logo-alt: "Alt text for logo"
     background: primary
     right:
       - href: index.qmd
@@ -24,9 +27,10 @@ website:
 
 format:
   html:
-    theme: 
-      light: flatly
-      dark: darkly
+    theme: #styles.scss
+    #mainfont: inter
+     light: flatly
+     dark: darkly
     css: styles.css
     toc: true
     page-layout: full

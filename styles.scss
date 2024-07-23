@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+// Colors
+$dark-moss-green: #4f5d2fff;
+$night: #141115ff;
+$alabaster: #ecebe4ff;
+$lapis-lazuli: #38618cff;
+$taupe-gray: #847e89ff;
+
+// Base document colors
+$navbar-bg: $lapis-lazuli; // navbar
+$navbar-fg: $alabaster; // navbar foreground elements
+$navbar-hl: $taupe-gray; // highlight color when hovering over navbar links
+$body-bg: $alabaster; // page background 
+$body-color: $night; // page text 
+$footer-bg: $taupe-gray; // footer 
+$link-color: $night; // hyperlinks 
+
+// Inline code
+$code-bg: $alabaster; // inline code background color
+$code-color: $night; // inline code text color
+
+// Code blocks
+$code-block-bg: $alabaster; // code block background color 
+
+/*-- scss:rules --*/
+.navbar-brand img { 
+  max-height: 50px;
+  width: auto;
+}
