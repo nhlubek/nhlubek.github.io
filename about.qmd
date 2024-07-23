@@ -2,4 +2,10 @@
 title: "About"
 ---
 
-About this site
+Something about me 
+
+My experiences ...
+
+My interests ...
+
+
