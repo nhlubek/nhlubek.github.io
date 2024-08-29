@@ -4,6 +4,7 @@ project:
 
 website:
   favicon: files/N.png
+  title: "N. Hlubek"
   navbar:
     title: "N. Hlubek"
     #logo: files/N.png
