@@ -1,8 +1,33 @@
 ---
 title: "About"
+format: html
+execute:
+  echo: true
 ---
 
 ## 
 
-<embed src="files/CV.pdf" type="application/pdf" width="100%" height="600px" />
+```{python}
+from PyPDF2 import PdfFileWriter, PdfFileReader
 
+# Open the original PDF
+input_pdf = PdfFileReader(open("files/CV.pdf", "rb"))
+output_pdf = PdfFileWriter()
+
+# Add all pages to the output PDF
+for page_num in range(input_pdf.getNumPages()):
+    output_pdf.addPage(input_pdf.getPage(page_num))
+
+# Set the permissions
+output_pdf.encrypt(user_pwd="", owner_pwd="your_owner_password", 
+                   use_128bit=True, 
+                   permissions={
+                       "print": False,
+                       "copy": False,
+                       "modify": False,
+                       "annotate": False
+                   })
+
+# Save the new PDF to a file
+with open("files/secured_CV.pdf", "wb") as output_file:
+    output_pdf.write(output_file)
