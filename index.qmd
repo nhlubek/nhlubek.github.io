@@ -1,5 +1,5 @@
 ---
-title: "Niklas Hlubek"
+title: "N. Hlubek"
 subtitle: "could write something here"
 image: files/placeholder.jpg
 toc: false
@@ -22,14 +22,4 @@ about:
       href: mailto:niklas.hlubek@yahoo.de
 ---
 
-## Welcome!
-
-I am a social scientist with background in this and that and a PhD too
-
-## Education
-
-way too much 
-
-## Experience
-
-quite some actually
+## 
