@@ -5,7 +5,7 @@ project:
 website:
   favicon: files/N.png
   navbar:
-    title: "Niklas Hlubek"
+    title: "N. Hlubek"
     #logo: files/N.png
     #logo-alt: "Alt text for logo"
     background: primary
