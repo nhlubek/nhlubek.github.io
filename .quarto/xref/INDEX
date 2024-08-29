@@ -10,5 +10,14 @@
   },
   "projects.qmd": {
     "projects.html": "a361c61f"
+  },
+  "projects/PhD1_project.qmd": {
+    "PhD1_project.html": "b14df71f"
+  },
+  "projects/UU_project.qmd": {
+    "UU_project.html": "8795b0de"
+  },
+  "projects/UoE_project.qmd": {
+    "UoE_project.html": "6277a5b4"
   }
 }
