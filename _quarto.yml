@@ -14,7 +14,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: resources.qmd
+      - href: projects.qmd
         text: Projects
       - icon: github
         href: https://github.com/nhlubek
