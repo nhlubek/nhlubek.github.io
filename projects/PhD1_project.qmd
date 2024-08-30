@@ -1,24 +1,22 @@
 ---
-title: "Project 3"
-description: "A brief overview of Project 3"
-date: 2024-08-30
+title: "Temporal Trends in Air Pollution Exposure across Socioeconomic Groups in The Netherlands"
+authors: "N. Hlubek, Y. Koop, A. Wagtendonk, I. Vaartjes"
+date: "2024"
+date-format: "YYYY"
+image: "files/PhD1_pic.png"
+format: 
+  html
 ---
 
-## Project 1 Overview
+## Overview
 
-Here you can add a detailed description of the project, its objectives, results, and any other relevant information.
+Air pollution exposure has been linked to detrimental health outcomes. While cross-sectional studies have demonstrated socioeconomic disparities in air pollution exposure, longitudinal evidence on these disparities remains limited. The current study investigates trends in residential air pollution exposure across socioeconomic groups in the Netherlands from 2014 to 2019. 
 
-![Image related to Project 1](path/to/project1-image.png)
 
-### Key Features
-- Feature 1
-- Feature 2
-- Feature 3
+## Methodology
 
-### Technologies Used
-- Technology A
-- Technology B
-- Technology C
+Our dataset includes over 12.5 million individuals, aged 18 years and above, who resided in the Netherlands between 2014 and 2019, using Statistics Netherlands data. The address-level air pollution concentrations were estimated by dispersion models of the National Institute of Public Health and the Environment. We linked the exposure estimations of particulate matter < 10 or <2.5 μm (PM10, PM2.5) and nitrogen dioxide (NO2) to household-level socioeconomic data.
 
-### Learn More
-- [GitHub Repository](https://github.com/yourusername/project1)
+## Links and Resources
+
+- <i class="fa-solid fa-magnifying-glass"></i> [Published Article in the International Journal of Environmental Research and Public Health](https://doi.org/10.3390/ijerph21080976)

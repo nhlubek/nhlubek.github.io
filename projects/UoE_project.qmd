@@ -1,24 +1,34 @@
 ---
-title: "Project 1"
-description: "A brief overview of Project 1"
-date: 2024-08-30
+title: "A social identity approach to COVID-19 transmission in hospital settings"
+authors: "N. Hlubek, A. Templeton, K. Wiseman-Gregg"
+date: "2023"
+date-format: "YYYY"
+image: "files/UoE_pic.png"
+format: 
+  html
 ---
 
-## Project 1 Overview
+## Overview
 
-Here you can add a detailed description of the project, its objectives, results, and any other relevant information.
+This project, funded by the Scottish Government, aimed to understand the barriers healthcare workers (HCWs) faced in adhering to COVID-19 safety guidelines. The research explored how psychological group processes influenced perceived risk of COVID-19 and adherence to safety measures in hospital settings.
 
-![Image related to Project 1](path/to/project1-image.png)
+## Methodology
 
-### Key Features
-- Feature 1
-- Feature 2
-- Feature 3
+- **Exploratory Factor Analysis**: Conducted using the `psych` package in `R` to identify item clusters.
+- **Mediation Analysis**: Performed using the `Lavaan` package in `R` to explore relationships between variables.
+- **Bootstrapped Sobel Test**: Used to assess mediation effects with 10,000 samples for robustness.
 
-### Technologies Used
-- Technology A
-- Technology B
-- Technology C
+## Presentations
 
-### Learn More
-- [GitHub Repository](https://github.com/yourusername/project1)
+This project was presented at the following important instances:
+
+- N. Hlubek, A. Templeton (2022). Social identity processes in hospital workers risk perception and adherence to safety 
+guidance during the COVID-19 pandemic. Paper presented at the **BPS Social Psychology Section Annual Conference**, 2022
+- N. Hlubek, A. Templeton (2021). A social identity approach to COVID-19 transmissions in hospital settings – Barriers 
+and avenues to safe behaviour in healthcare workers. Project presented to the **Scottish Government COVID-19 Nosocomial Review Group**, 2021
+
+## Links and Resources
+
+- <i class="fa-solid fa-file-code"></i> [Open Science Framework (OSF) Project Page](https://osf.io/txua4/)
+  - The `R` script, a list of the survey items and the Figures can be found on OSF
+- <i class="fa-solid fa-magnifying-glass"></i>[Published Article in the Journal of Applied Social Psychology](https://doi.org/10.1111/jasp.12948)

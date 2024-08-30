@@ -1,24 +1,22 @@
 ---
-title: "Project 2"
-description: "A brief overview of Project 2"
-date: 2024-08-30
+title: "Cross-country differences in the association between socioecnomic status and adolescent mental health"
+subtitle: "The role of mental health policies and services"
+authors: "N. Hlubek, D. Weinberg"
+date: "2022"
+date-format: "YYYY"
+image: "files/UU_pic.png"
+format: 
+  html
 ---
 
-## Project 2 Overview
+## Overview
 
-Here you can add a detailed description of the project, its objectives, results, and any other relevant information.
+This project was my Master Thesis for the MSc. in Social Policy and Public Health at Utrecht University. We examined the association between adolescent socioeconomic status (SES), national-level mental health policies and adolescent mental health outcomes using data from 11-15 year-olds from 30 European Countries (*n* = 155.375). 
 
-![Image related to Project 1](path/to/project1-image.png)
+## Methodology
 
-### Key Features
-- Feature 1
-- Feature 2
-- Feature 3
+- **Multilevel regression analysis**: Conducted using the `lme4` and `lmerTest` package in `R`.
 
-### Technologies Used
-- Technology A
-- Technology B
-- Technology C
+We used two-level linear regression models to investigate (1) overall associations between family affluence and adolescent mental health outcomes (2) overall associations between national-level policy indicators and adolescent mental health outcomes (3) cross country variations in the association between family affluence and adolescent mental health outcomes (4) the moderating role of national-level policy indicators on the association between family affluence and adolescent mental health outcomes.
 
-### Learn More
-- [GitHub Repository](https://github.com/yourusername/project1)
+<embed src="/projects/files/UU_thesis.pdf" type="application/pdf" width="100%" height="600px" />

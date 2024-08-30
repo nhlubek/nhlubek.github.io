@@ -1,14 +1,9 @@
 ---
 title: "Research projects"
+listing:
+  contents: 
+    - "projects/UoE_project.qmd"
+    - "projects/UU_project.qmd"
+    - "projects/PhD1_project.qmd"
+  type: grid
 ---
-
-- [Project 1](projects/UoE_project.qmd)  
-  A brief description of Project 1.
-
-- [Project 2](projects/UU_project.qmd)  
-  A brief description of Project 2.
-
-- [Project 3](projects/PhD1_project.qmd)  
-  A brief description of Project 3.
-
-<!-- Add more projects as needed -->
