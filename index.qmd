@@ -1,6 +1,6 @@
 ---
 title: "N. Hlubek"
-subtitle: "could write something here"
+subtitle: "PhD Student in Epidemiology, Utrecht"
 image: files/placeholder.jpg
 toc: false
 about: 
@@ -23,3 +23,10 @@ about:
 ---
 
 ## 
+
+Hello and thank you for visiting my website.
+
+ I’m a PhD student at Utrecht University Medical Center, where I’m studying epidemiology with a focus on socioeconomic differences in environmental health. My research uses large nationwide longitudinal data to address these important issues.
+
+My background includes psychological research, social policy, and experience in EU policy advocacy. 
+I work to find practical, data-driven solutions to complex social questions.

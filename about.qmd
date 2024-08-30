@@ -4,5 +4,10 @@ title: "About"
 
 ## 
 
+I am a PhD student in epidemiology at Utrecht University Medical Center, researching socioeconomic disparities in environmental health using nationwide longitudinal data. My background encompasses psychological research, social policy, and EU policy advocacy.
+
+For more information about my professional experiences, please see my CV below.
+
+
 <embed src="files/CV.pdf" type="application/pdf" width="100%" height="600px" />
 
