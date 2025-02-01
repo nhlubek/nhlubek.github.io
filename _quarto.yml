@@ -3,11 +3,11 @@ project:
   output-dir: docs
 
 website:
-  favicon: files/N.png
+  favicon: files/dog_shield.png
   title: "N. Hlubek"
   navbar:
     title: "N. Hlubek"
-    #logo: files/N.png
+    #logo: files/dog_shield.png
     #logo-alt: "Alt text for logo"
     background: primary
     right:
@@ -26,12 +26,15 @@ website:
 
 format:
   html:
-    theme: #styles.scss
-    #mainfont: inter
-     light: lux
-    css: styles.css
+    theme:
+     - lux 
+     - styles.scss
+    mainfont: Ubuntu
+    #light: lux
+    #css: styles.css
     toc: true
     page-layout: full
+
 
 editor: visual
 
