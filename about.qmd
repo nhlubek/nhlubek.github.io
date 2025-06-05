@@ -8,6 +8,4 @@ I am a PhD student in epidemiology at Utrecht University Medical Center, researc
 
 For more information about my professional experiences, please see my CV below.
 
-
 <embed src="files/CV.pdf" type="application/pdf" width="100%" height="600px" />
-
