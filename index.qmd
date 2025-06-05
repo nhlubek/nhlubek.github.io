@@ -1,10 +1,10 @@
 ---
 title: "N. Hlubek"
 subtitle: "PhD Student in Epidemiology, Utrecht"
-image: files/placeholder.jpg
+#image: files/placeholder.jpg
 toc: false
 about: 
-  template: trestles
+  template: solana
   image-shape:  rounded
   image-width: 10em
   links: 
@@ -21,8 +21,6 @@ about:
       text: Email
       href: mailto:niklas.hlubek@yahoo.de
 ---
-
-## 
 
 Hello and thank you for visiting my website.
 
