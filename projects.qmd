@@ -5,6 +5,6 @@ listing:
     - "projects/UoE_project.qmd"
     - "projects/UU_project.qmd"
     - "projects/PhD1_project.qmd"
-    - "projects/presentation.html"
+    - "projects/presentation.qmd"
   type: grid
 ---
