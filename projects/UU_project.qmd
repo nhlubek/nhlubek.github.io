@@ -11,11 +11,11 @@ format:
 
 ## Overview
 
-This project was my Master Thesis for the MSc. in Social Policy and Public Health at Utrecht University. We examined the association between adolescent socioeconomic status (SES), national-level mental health policies and adolescent mental health outcomes using data from 11-15 year-olds from 30 European Countries (*n* = 155.375). 
+This project was my Master Thesis for the MSc. in Social Policy and Public Health at Utrecht University. We examined the association between adolescent socioeconomic status (SES), national-level mental health policies and adolescent mental health outcomes using data from 11-15 year-olds from 30 European Countries (*n* = 155.375).
 
 ## Methodology
 
-- **Multilevel regression analysis**: Conducted using the `lme4` and `lmerTest` package in `R`.
+-   **Multilevel regression analysis**: Conducted using the `lme4` and `lmerTest` package in `R`.
 
 We used two-level linear regression models to investigate (1) overall associations between family affluence and adolescent mental health outcomes (2) overall associations between national-level policy indicators and adolescent mental health outcomes (3) cross country variations in the association between family affluence and adolescent mental health outcomes (4) the moderating role of national-level policy indicators on the association between family affluence and adolescent mental health outcomes.
 
