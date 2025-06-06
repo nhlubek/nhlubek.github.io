@@ -3,4 +3,4 @@ title: "Fun Presentation"
 description: "WhatsApp history reveal.js show"
 ---
 
-[Zur](presentation.html)[Präsentation](/projects/present.html)
+[Präsentation](/projects/present.html)
