@@ -16,16 +16,17 @@ website:
         text: GitHub
   page-footer: 
     background: light
-    left: Copyright 2024, Niklas Hlubek
+    left: Copyright 2025, Niklas Hlubek
     right: This website is built with  [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/nhlubek/nhlubek.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
     theme:
-     - sandstone 
+     - united 
      - styles.scss
     mainfont: Ubuntu
-    #light: lux
+    light: united
+    dark: united
     #css: styles.css
     toc: true
     page-layout: full
