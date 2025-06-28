@@ -22,16 +22,13 @@ website:
 format:
   html:
     theme:
-     - united 
-     - styles.scss
+      light: united
+      dark: darkly 
     mainfont: Ubuntu
-    light: united
-    dark: united
-    #css: styles.css
+    css: styles.scss
     toc: true
     page-layout: full
     breadcrumbs: false
-
 
 editor: visual
 
