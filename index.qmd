@@ -22,8 +22,14 @@ about:
       href: mailto:niklas.hlubek@yahoo.de
 ---
 
-Hello and thank you for visiting my website.
+# Welcome
 
-I’m a PhD student at Utrecht University Medical Center, where I’m studying epidemiology with a focus on socioeconomic differences in environmental health. My research uses large nationwide longitudinal data to address these important issues.
+I'm Niklas Hlubek, a PhD researcher at Utrecht University Medical Center specializing in population health inequalities. My work combines advanced quantitative methods with interdisciplinary approaches to understand how social and environmental factors shape health outcomes across the lifespan.
 
-My background includes psychological research, social policy, and experience in EU policy advocacy. I work to find practical, data-driven solutions to complex social questions.
+Currently, I'm investigating socioeconomic differences in environmental health using large-scale longitudinal data (70M+ observations), with expertise in time-to-event modeling, causal inference, and spatial epidemiology. My research bridges psychology, social policy, and public health to address complex societal challenges.
+
+**Research Interests:** Population health inequalities • Youth mental health • Environmental epidemiology • Causal inference • Policy evaluation
+
+**Background:** Psychology (MSc) • Social Policy & Public Health (MSc) • EU policy advocacy • Data science applications
+
+*Explore my [research projects](/projects.qmd) or learn more [about my work](/about.qmd).*

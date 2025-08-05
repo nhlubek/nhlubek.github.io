@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a PhD student in epidemiology at Utrecht University Medical Center, researching socioeconomic disparities in environmental health using nationwide longitudinal data. My background encompasses psychological research, social policy, and EU policy advocacy.\nFor more information about my professional experiences, please see my CV below.",
+    "text": "I am a PhD student in epidemiology at Utrecht University Medical Center, researching socioeconomic disparities in environmental health using nationwide longitudinal data. My background encompasses psychological research, social policy, and EU policy advocacy.\nFor more information about my professional experiences, please see my CV below.\n\n\n\n\n Back to top",
     "crumbs": [
       "About"
     ]
@@ -14,7 +14,7 @@
     "href": "projects.html",
     "title": "Research projects",
     "section": "",
-    "text": "A social identity approach to COVID-19 transmission in hospital settings\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nCross-country differences in the association between socioecnomic status and adolescent mental health\n\n\n\n\n\n\n\n\n\nJan 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nTemporal Trends in Air Pollution Exposure across Socioeconomic Groups in The Netherlands\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\n\n\n\n\nNo matching items",
+    "text": "A social identity approach to COVID-19 transmission in hospital settings\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nCross-country differences in the association between socioecnomic status and adolescent mental health\n\n\n\n\n\n\n\n\n\nJan 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nTemporal Trends in Air Pollution Exposure across Socioeconomic Groups in The Netherlands\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\n\n\n\n\nNo matching items\n Back to top",
     "crumbs": [
       "Projects"
     ]
@@ -115,6 +115,13 @@
     "href": "index.html",
     "title": "N. Hlubek",
     "section": "",
-    "text": "Hello and thank you for visiting my website.\nI’m a PhD student at Utrecht University Medical Center, where I’m studying epidemiology with a focus on socioeconomic differences in environmental health. My research uses large nationwide longitudinal data to address these important issues.\nMy background includes psychological research, social policy, and experience in EU policy advocacy. I work to find practical, data-driven solutions to complex social questions."
+    "text": "Welcome\nI’m Niklas Hlubek, a PhD researcher at Utrecht University Medical Center specializing in population health inequalities. My work combines advanced quantitative methods with interdisciplinary approaches to understand how social and environmental factors shape health outcomes across the lifespan.\nCurrently, I’m investigating socioeconomic differences in environmental health using large-scale longitudinal data (70M+ observations), with expertise in time-to-event modeling, causal inference, and spatial epidemiology. My research bridges psychology, social policy, and public health to address complex societal challenges.\nResearch Interests: Population health inequalities • Youth mental health • Environmental epidemiology • Causal inference • Policy evaluation\nBackground: Psychology (MSc) • Social Policy & Public Health (MSc) • EU policy advocacy • Data science applications\nExplore my research projects or learn more about my work.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items\n Back to top"
   }
 ]

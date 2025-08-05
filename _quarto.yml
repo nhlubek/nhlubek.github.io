@@ -3,17 +3,26 @@ project:
   output-dir: docs
 
 website:
-  favicon: files/dog_shield.png
+  #favicon: files/dog_shield.png
+  # announcement:
+  #  dismissable: true
+  #  content: "🎓 Currently seeking postdoc positions - [View my research](/projects)"
+  #  type: primary
+  #  position: below-navbar
   title: "N. Hlubek"
   sidebar:
     style: docked
+    search: true
     contents:
       - about.qmd
       - href: projects.qmd
         text: Projects
+      # - href: blog.qmd
+      #   text: Blog
       - icon: github
         href: https://github.com/nhlubek
         text: GitHub
+  back-to-top-navigation: true
   page-footer: 
     background: light
     left: Copyright 2025, Niklas Hlubek
@@ -21,14 +30,17 @@ website:
 
 format:
   html:
+    smooth-scroll: true
+    email-obfuscation: javascript
     theme:
       light: united
       dark: darkly 
     mainfont: Ubuntu
-    css: styles.scss
+    #css: styles.scss
     toc: true
     page-layout: full
-    breadcrumbs: false
+    grid: 
+      sidebar-width: 200px
 
 editor: visual
 
