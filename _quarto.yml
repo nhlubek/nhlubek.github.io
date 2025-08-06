@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  #favicon: files/dog_shield.png
+  favicon: files/dog_shield.png
   # announcement:
   #  dismissable: true
   #  content: "🎓 Currently seeking postdoc positions - [View my research](/projects)"
