@@ -24,9 +24,9 @@ about:
 
 # Welcome
 
-I'm Niklas Hlubek, a PhD researcher at Utrecht University Medical Center specializing in population health inequalities. My work combines advanced quantitative methods with interdisciplinary approaches to understand how social and environmental factors shape health outcomes across the lifespan.
+I'm Niklas Hlubek, a PhD research fellow at Utrecht University Medical Center specializing in population health inequalities. My work combines advanced quantitative methods with interdisciplinary approaches to understand how social and environmental factors shape health outcomes across the lifespan.
 
-Currently, I'm investigating socioeconomic differences in environmental health using large-scale longitudinal data (70M+ observations), with expertise in time-to-event modeling, causal inference, and spatial epidemiology. My research bridges psychology, social policy, and public health to address complex societal challenges.
+Currently, I'm investigating socioeconomic differences in environmental health using large-scale longitudinal data, with expertise in time-to-event modeling, causal inference, and spatial epidemiology. My research bridges psychological research, social policy, and public health to address complex societal challenges.
 
 **Research Interests:** Population health inequalities • Youth mental health • Environmental epidemiology • Causal inference • Policy evaluation
 
