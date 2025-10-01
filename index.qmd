@@ -1,6 +1,6 @@
 ---
 title: "N. Hlubek"
-subtitle: "PhD Student in Epidemiology, Utrecht"
+subtitle: "interdisciplinary quantitative researcher"
 #image: files/placeholder.jpg
 toc: false
 about: 
@@ -24,12 +24,20 @@ about:
 
 # Welcome
 
-I'm Niklas Hlubek, a PhD research fellow at Utrecht University Medical Center specializing in population health inequalities. My work combines advanced quantitative methods with interdisciplinary approaches to understand how social and environmental factors shape health outcomes across the lifespan.
+I'm Niklas Hlubek, an interdisciplinary quantitative researcher interested in improving our understanding of complex societal challenges through data. I have expertise in generating evidence-based insights by integrating diverse data sources, from psychological questionnaires and policy data to large-scale population registers and environmental data.
 
-Currently, I'm investigating socioeconomic differences in environmental health using large-scale longitudinal data, with expertise in time-to-event modeling, causal inference, and spatial epidemiology. My research bridges psychological research, social policy, and public health to address complex societal challenges.
+In my current role as a PhD research fellow in Epidemiology at Utrecht University Medical Centeru, I am analyzing nationwide longitudinal data to evaluate the impact of social and environmental factors on public health. This project combines causal inference, spatial analysis, and time-to-event modeling to inform policy. I strive to translate complex findings into actionable strategies for decision-makers.
 
-**Research Interests:** Population health inequalities • Youth mental health • Environmental epidemiology • Causal inference • Policy evaluation
+Core Competencies:
 
-**Background:** Psychology (MSc) • Social Policy & Public Health (MSc) • EU policy advocacy • Data science applications
+- Quantitative Analysis & Modeling: Applying causal inference, longitudinal data analysis, and spatial models to complex, real-world data.
+
+- Evaluation & Monitoring: Designing studies and developing indicators to assess the impact of policies and interventions.
+
+- Data Visualization: Communicating insights through clear reports, presentations, and interactive dashboards for diverse audiences.
+
+- Interdisciplinary Problem-Solving: Bridging insights from public health, social policy, psychology, and environmental science.
+
+Background: **Psychological Research (MSc)** • **Social Policy & Public Health (MSc)** • **Epidemiology (PhD)**
 
 *Explore my [research projects](/projects.qmd) or learn more [about my work](/about.qmd).*
