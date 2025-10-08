@@ -4,44 +4,41 @@ project:
 
 website:
   favicon: files/NH.png
-  # announcement:
-  #  dismissable: true
-  #  content: "🎓 Currently seeking postdoc positions - [View my research](/projects)"
-  #  type: primary
-  #  position: below-navbar
-  title: "N. Hlubek"
-  sidebar:
-    style: docked
+  title: "Niklas Hlubek"
+  navbar:
     search: true
-    contents:
-      - about.qmd
+    collapse: true
+    left:
+      - href: index.qmd
+        text: About
+      - href: about.qmd
+        text: CV
       - href: projects.qmd
-        text: Projects
+        text: Research Projects
       # - href: blog.qmd
       #   text: Blog
+    right:
       - icon: github
         href: https://github.com/nhlubek
         text: GitHub
   back-to-top-navigation: true
-  page-footer: 
-    background: light
-    left: Copyright 2025, Niklas Hlubek
-    right: This website is built with  [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/nhlubek/nhlubek.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+  announcement: 
+    content: "Test" 
+    icon: info-circle
+    dismissable: true
+    type: primary
+    position: below-navbar
 
 format:
   html:
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: Computer Modern, sans-serif;
+    css: styles.css
+    toc: true
     smooth-scroll: true
     email-obfuscation: javascript
-    theme:
-      light: united
-      dark: darkly 
-    mainfont: Ubuntu
-    #css: styles.scss
-    toc: true
-    page-layout: full
-    grid: 
-      sidebar-width: 200px
-
-editor: visual
+    page-layout: article
 
 

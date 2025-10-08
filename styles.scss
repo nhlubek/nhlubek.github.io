@@ -47,13 +47,13 @@ $footer-bg: darken($color-accent, 20%);
 
 /*-- scss:rules --*/
 .navbar-brand img {
-  max-height: 50px;
-  width: auto;
+    max-height: 50px;
+    width: auto;
 }
 
 // Additional CSS rules for fine-tuning
 // Use !important to ensure your styles take precedence if needed.
 // This is often a last resort, but can be helpful for debugging.
 .code-block {
-  background-color: var(--bs-code-block-bg) !important;
+    background-color: var(--bs-code-block-bg) !important;
 }

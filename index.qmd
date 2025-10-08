@@ -1,43 +1,58 @@
 ---
-title: "N. Hlubek"
-subtitle: "interdisciplinary quantitative researcher"
+title: "Niklas Hlubek"
+subtitle: "Interdisplinary Quantitative Researcher" 
 #image: files/placeholder.jpg
-toc: false
+
 about: 
+  id: hero-heading
   template: solana
-  image-shape:  rounded
-  image-width: 10em
   links: 
-    - icon: github 
-      text: GitHub
-      href: https:www.github.com/
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/
-    - icon: book
-      text: Google scholar
-      href: https://scholar.google.com/
-    - icon: envelope
-      text: Email
+    - text: "{{< iconify material-symbols-light mail-outline>}}"
+      aria-label: "Mail"
       href: mailto:niklas.hlubek@yahoo.de
+    
+    - text: "{{< iconify fa6-brands linkedin >}}"
+      aria-label: "LinkedIn"
+      href: https://www.linkedin.com/in/
+
+    - text: "{{< iconify octicon mark-github-24>}}"
+      aria-label: "GitHub"
+      href: https://github.com/nhlubek
+
+format:
+    html: 
+        css: index.css
 ---
 
-# Welcome
+:::{#hero-heading}
 
+<p style='text-align: justify;'>
 I'm Niklas Hlubek, an interdisciplinary quantitative researcher interested in improving our understanding of complex societal challenges through data. I have expertise in generating evidence-based insights by integrating diverse data sources, from psychological questionnaires and policy data to large-scale population registers and environmental data.
 
-In my current role as a PhD research fellow in Epidemiology at Utrecht University Medical Centeru, I am analyzing nationwide longitudinal data to evaluate the impact of social and environmental factors on public health. This project combines causal inference, spatial analysis, and time-to-event modeling to inform policy. I strive to translate complex findings into actionable strategies for decision-makers.
+</p>
 
+<p style='text-align: justify;'>
+In my current role as a PhD research fellow in Epidemiology at Utrecht University Medical Center, I am analyzing nationwide longitudinal data to evaluate the impact of social and environmental factors on public health. This project combines causal inference, spatial analysis, and time-to-event modeling to inform policy. I strive to translate complex findings into actionable strategies for decision-makers.
+</p>
+
+<p style='text-align: justify;'>
 Core Competencies:
 
-- Quantitative Analysis & Modeling: Applying causal inference, longitudinal data analysis, and spatial models to complex, real-world data.
+-   Quantitative Analysis & Modeling: Applying causal inference, longitudinal data analysis, and spatial models to complex, real-world data.
 
-- Evaluation & Monitoring: Designing studies and developing indicators to assess the impact of policies and interventions.
+-   Evaluation & Monitoring: Designing studies and developing indicators to assess the impact of policies and interventions.
 
-- Data Visualization: Communicating insights through clear reports, presentations, and interactive dashboards for diverse audiences.
+-   Data Visualization: Communicating insights through clear reports, presentations, and interactive dashboards for diverse audiences.
 
-- Interdisciplinary Problem-Solving: Bridging insights from public health, social policy, psychology, and environmental science.
+-   Interdisciplinary Problem-Solving: Bridging insights from public health, social policy, psychology, and environmental science.
 
-Background: **Psychological Research (MSc)** • **Social Policy & Public Health (MSc)** • **Epidemiology (PhD)**
+Background: 
+
+**Psychological Research (MSc)** • **Social Policy & Public Health (MSc)** • **Epidemiology (PhD)**
 
 *Explore my [research projects](/projects.qmd) or learn more [about my work](/about.qmd).*
+</p>
+
+:::
+
+

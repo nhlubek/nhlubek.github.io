@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+$body-bg: #FAFBFC;
+$body-color: #1D2327;
+$heading-color: #0D1114;
+$border-color: #D8DEE3;
+$muted-color: #66727A;
+
+$link-color: #C43E33; // deep coral
+$link-hover-color: #A9362D;
+$link-decoration: none;
+
+$code-color: #1D2327;
+$code-bg: #F1F4F6;
+$code-block-bg-alpha: -.35;
+
+$primary: #C43E33;
+$secondary: #2F8F8F;
+$navbar-bg: #e3dcdcff;
+$navbar-fg: #1D2327;
+$footer-bg: #FFFFFF;
+
+a:link {
+    text-decoration: none;
+}
+
+:focus-visible {
+    outline: 3px solid rgba(196, 62, 51, .35);
+    outline-offset: 2px;
+}
