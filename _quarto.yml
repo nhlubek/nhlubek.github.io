@@ -22,12 +22,12 @@ website:
         href: https://github.com/nhlubek
         text: GitHub
   back-to-top-navigation: true
-  announcement: 
-    content: "Test" 
-    icon: info-circle
-    dismissable: true
-    type: primary
-    position: below-navbar
+  # announcement: 
+  #   content: "Test" 
+  #   icon: info-circle
+  #   dismissable: true
+  #   type: dark
+  #   position: below-navbar
 
 format:
   html:
