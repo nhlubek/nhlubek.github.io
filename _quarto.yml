@@ -4,7 +4,7 @@ project:
 
 website:
   favicon: files/NH.png
-  title: "Niklas Hlubek"
+  title: "**Niklas Hlubek**"
   navbar:
     search: true
     collapse: true
@@ -14,7 +14,7 @@ website:
       - href: about.qmd
         text: CV
       - href: projects.qmd
-        text: Research Projects
+        text: Research 
       # - href: blog.qmd
       #   text: Blog
     right:
