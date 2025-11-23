@@ -1,15 +1,7 @@
 ---
 title: "Research projects"
-date: 2025-10-16
+date: today
 published-title: Last updated
-listing:
-  contents: 
-    - "projects/UoE_project.qmd"
-    - "projects/UU_project.qmd"
-    - "projects/PhD1_project.qmd"
-    - "projects/PhD2_project.qmd"
-  type: grid
-  sort: "date desc"
 ---
 
 In my research I have been interestesd in social science, epidemiological and environmental science topics. I have experience using  advanced statistical methods and large-scale datasets to get data-driven insights that can inform public health, social policy, and clinical practice.
@@ -18,6 +10,77 @@ My academic journey began in psychological research, focusing on therapeutic int
 
 ---
 
-## Projects
+### Journal Publications
 
-Below, you can explore detailed pages for my key research projects. 
+<br> <!-- Phd Paper 3 -->
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](/files/envres.jpg){width=120}
+:::
+
+::: {.column width="80%"}
+
+**[Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment](https://doi.org/10.1016/j.envres.2025.123132)**  
+*Environmental Research*, (2025) <br>
+N. Hlubek, U. Gehring, ..., A. Saucy, C. Tonne
+
+<details>
+  <summary>Abstract</summary>
+
+This paper contributes to the literature on…
+</details>
+
+:::
+
+::::
+
+<br> <!-- Phd Paper 1 -->
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](/files/ijenrph.jpg){width=120}
+:::
+
+::: {.column width="80%"}
+
+**[Temporal Trends in Air Pollution Exposure across Socioeconomic Groups in The Netherlands](https://doi.org/10.3390/ijerph21080976)**  
+*International Journal of Environmental Research and Public Health*, (2023) <br>
+N. Hlubek, Y. Koop, A. Wagtendonk, I. Vaartjes
+
+<details>
+  <summary>Abstract</summary>
+
+This paper contributes to the literature on…
+</details>
+
+:::
+
+::::
+
+<br> <!-- MSc. Paper -->
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](/files/sopsy.jpg){width=120}
+:::
+
+::: {.column width="80%"}
+
+**[A social identity approach to COVID-19 transmission in hospital settings](https://doi.org/10.1111/jasp.12948)**  
+*Journal of Applied Social Psychology*, (2022) <br>
+N. Hlubek, A. Templeton, K. Wiseman-Gregg
+
+<details>
+  <summary>Abstract</summary>
+
+This paper contributes to the literature on…
+</details>
+
+:::
+
+::::
+

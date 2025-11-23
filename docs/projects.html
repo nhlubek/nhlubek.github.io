@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-10-16">
+<meta name="dcterms.date" content="2025-11-23">
 
 <title>Research projects – Niklas Hlubek</title>
 <style>
@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./files/NH.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -76,66 +74,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -355,7 +295,7 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a></li>
+  <li><a href="#journal-publications" id="toc-journal-publications" class="nav-link active" data-scroll-target="#journal-publications">Journal Publications</a></li>
   </ul>
 </nav>
     </div>
@@ -376,7 +316,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Last updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 16, 2025</p>
+      <p class="date">November 23, 2025</p>
     </div>
   </div>
   
@@ -391,115 +331,58 @@ window.Quarto = {
 <p>In my research I have been interestesd in social science, epidemiological and environmental science topics. I have experience using advanced statistical methods and large-scale datasets to get data-driven insights that can inform public health, social policy, and clinical practice.</p>
 <p>My academic journey began in psychological research, focusing on therapeutic interventions and clinical research. It then expanded into social policy and public health, and have recently finished my PhD where I specialized in using large registry data linkage to explore the interplay of environmental exposures and health outcomes at a population level.</p>
 <hr>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<p>Below, you can explore detailed pages for my key research projects.</p>
-
+<section id="journal-publications" class="level3">
+<h3 class="anchored" data-anchor-id="journal-publications">Journal Publications</h3>
+<p><br> <!-- Phd Paper 3 --></p>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="./files/envres.jpg" class="img-fluid" width="120"></p>
+</div><div class="column" style="width:80%;">
+<p><strong><a href="https://doi.org/10.1016/j.envres.2025.123132">Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment</a></strong><br>
+<em>Environmental Research</em>, (2025) <br> N. Hlubek, U. Gehring, …, A. Saucy, C. Tonne</p>
+<details>
+<summary>
+Abstract
+</summary>
+This paper contributes to the literature on…
+</details>
+</div>
+</div>
+<p><br> <!-- Phd Paper 1 --></p>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="./files/ijenrph.jpg" class="img-fluid" width="120"></p>
+</div><div class="column" style="width:80%;">
+<p><strong><a href="https://doi.org/10.3390/ijerph21080976">Temporal Trends in Air Pollution Exposure across Socioeconomic Groups in The Netherlands</a></strong><br>
+<em>International Journal of Environmental Research and Public Health</em>, (2023) <br> N. Hlubek, Y. Koop, A. Wagtendonk, I. Vaartjes</p>
+<details>
+<summary>
+Abstract
+</summary>
+This paper contributes to the literature on…
+</details>
+</div>
+</div>
+<p><br> <!-- MSc. Paper --></p>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="./files/sopsy.jpg" class="img-fluid" width="120"></p>
+</div><div class="column" style="width:80%;">
+<p><strong><a href="https://doi.org/10.1111/jasp.12948">A social identity approach to COVID-19 transmission in hospital settings</a></strong><br>
+<em>Journal of Applied Social Psychology</em>, (2022) <br> N. Hlubek, A. Templeton, K. Wiseman-Gregg</p>
+<details>
+<summary>
+Abstract
+</summary>
+This paper contributes to the literature on…
+</details>
+</div>
+</div>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1763935535772" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="218">
-<a href="./projects/PhD2_project.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment
-</h5>
-<div class="card-text listing-description delink">
-Residential relocation is common during childhood and influences multiple aspects of the living environment. This study contributes to a better understanding of how changes…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jan 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1749155266543" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
-<a href="./projects/PhD1_project.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/files/PhD1_pic.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Temporal Trends in Air Pollution Exposure across Socioeconomic Groups in The Netherlands
-</h5>
-<div class="card-text listing-description delink">
-Air pollution exposure has been linked to detrimental health outcomes. While cross-sectional studies have demonstrated socioeconomic disparities in air pollution exposure…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jan 1, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1725018757451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
-<a href="./projects/UoE_project.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/files/UoE_pic.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A social identity approach to COVID-19 transmission in hospital settings
-</h5>
-<div class="card-text listing-description delink">
-This project, funded by the Scottish Government, aimed to understand the barriers healthcare workers (HCWs) faced in adhering to COVID-19 safety guidelines. The research…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jan 1, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1640995200000" data-listing-file-modified-sort="1749155266544" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
-<a href="./projects/UU_project.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/files/UU_pic.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cross-country differences in the association between socioecnomic status and adolescent mental health
-</h5>
-<div class="card-text listing-description delink">
-This project was my Master Thesis for the MSc. in Social Policy and Public Health at Utrecht University. We examined the association between adolescent socioeconomic status…<em></em>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jan 1, 2022
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
