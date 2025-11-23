@@ -3,3 +3,5 @@ projects/present.html
 
 .env
 config.json
+/.quarto/
+**/*.quarto_ipynb
