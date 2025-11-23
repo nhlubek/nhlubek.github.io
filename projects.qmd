@@ -24,7 +24,7 @@ My academic journey began in psychological research, focusing on therapeutic int
 
 **[Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment](https://doi.org/10.1016/j.envres.2025.123132)**  
 *Environmental Research*, (2025) <br>
-N. Hlubek, U. Gehring, ..., A. Saucy, C. Tonne
+Niklas Hlubek, U. Gehring, J. M.A. Boer, O. Gruzieva, Y. Koop, G. H. Koppelman, E. Melen, R. Vermeulen, J. M. Vonk, J. Vlaanderen, F. Coloma, Z. Yu, I. Vaartjes, C. Tonne, A. Saucy
 
 <details>
   <summary>Abstract</summary>

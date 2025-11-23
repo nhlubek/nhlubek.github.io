@@ -1,3 +1,5 @@
-/.quarto/
+# Ignore a specific file
+projects/present.html
 
-**/*.quarto_ipynb
+.env
+config.json
