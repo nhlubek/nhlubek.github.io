@@ -1,0 +1,23 @@
+---
+title: "Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment"
+authors: "N. Hlubek, U. Gehring, (...), A. Saucy, C. Tonne"
+date: "2025"
+date-format: "YYYY"
+image: ""
+format: 
+  html
+---
+
+## Overview
+
+Residential relocation is common during childhood and influences multiple aspects of the living environment. This study contributes to a better understanding of how changes in complex environmental exposures interact to shape lung health. Our findings suggest that relocation to areas with higher levels of built-up surface environments - characterized by less green space and more impervious surfaces – is associated with reduced lung function in adolescents. These results highlight the need for further research in exposome and environmental epidemiology, expanding to more countries and additional health indicators to comprehensively assess the long-term health impacts of residential moves.
+
+## Methodology
+
+We characterized three external-exposome domains—air pollution, green/blue infrastructure, and area-level socioeconomic disadvantage—by rescaling cohort-specific exposures using interquartile ranges and applying a k-median clustering algorithm, which offers robustness to outliers and skewed distributions compared with k-means. 
+
+Exposome clusters were derived separately for each cohort, and relocation trajectories between ages 8 and 16 were defined based on relocation between low-, medium-, and high-hazard cluster levels. To estimate how changes in exposome clusters affected changes in lung-function, we used a difference-in-difference (DiD) framework with relocation trajectories as the exposure and incorporated inverse probability weighting (IPW) to reduce bias from selective relocation patterns. Weights were derived via the WeightIt package. 
+
+## Links and Resources
+
+-   <i class="fa-solid fa-magnifying-glass"></i> [Published Article in the Environmental Research](https://doi.org/10.1016/j.envres.2025.123132)

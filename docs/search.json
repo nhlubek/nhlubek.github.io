@@ -124,5 +124,33 @@
     "title": "Research projects",
     "section": "Projects",
     "text": "Projects\nBelow, you can explore detailed pages for my key research projects."
+  },
+  {
+    "objectID": "projects/PhD2_project.html",
+    "href": "projects/PhD2_project.html",
+    "title": "Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment",
+    "section": "",
+    "text": "Residential relocation is common during childhood and influences multiple aspects of the living environment. This study contributes to a better understanding of how changes in complex environmental exposures interact to shape lung health. Our findings suggest that relocation to areas with higher levels of built-up surface environments - characterized by less green space and more impervious surfaces – is associated with reduced lung function in adolescents. These results highlight the need for further research in exposome and environmental epidemiology, expanding to more countries and additional health indicators to comprehensively assess the long-term health impacts of residential moves."
+  },
+  {
+    "objectID": "projects/PhD2_project.html#overview",
+    "href": "projects/PhD2_project.html#overview",
+    "title": "Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment",
+    "section": "",
+    "text": "Residential relocation is common during childhood and influences multiple aspects of the living environment. This study contributes to a better understanding of how changes in complex environmental exposures interact to shape lung health. Our findings suggest that relocation to areas with higher levels of built-up surface environments - characterized by less green space and more impervious surfaces – is associated with reduced lung function in adolescents. These results highlight the need for further research in exposome and environmental epidemiology, expanding to more countries and additional health indicators to comprehensively assess the long-term health impacts of residential moves."
+  },
+  {
+    "objectID": "projects/PhD2_project.html#methodology",
+    "href": "projects/PhD2_project.html#methodology",
+    "title": "Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment",
+    "section": "Methodology",
+    "text": "Methodology\nWe characterized three external-exposome domains—air pollution, green/blue infrastructure, and area-level socioeconomic disadvantage—by rescaling cohort-specific exposures using interquartile ranges and applying a k-median clustering algorithm, which offers robustness to outliers and skewed distributions compared with k-means.\nExposome clusters were derived separately for each cohort, and relocation trajectories between ages 8 and 16 were defined based on relocation between low-, medium-, and high-hazard cluster levels. To estimate how changes in exposome clusters affected changes in lung-function, we used a difference-in-difference (DiD) framework with relocation trajectories as the exposure and incorporated inverse probability weighting (IPW) to reduce bias from selective relocation patterns. Weights were derived via the WeightIt package."
+  },
+  {
+    "objectID": "projects/PhD2_project.html#links-and-resources",
+    "href": "projects/PhD2_project.html#links-and-resources",
+    "title": "Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment",
+    "section": "Links and Resources",
+    "text": "Links and Resources\n\n Published Article in the Environmental Research"
   }
 ]

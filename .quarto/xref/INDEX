@@ -25,5 +25,8 @@
   },
   "blog.qmd": {
     "blog.html": "76110478"
+  },
+  "projects/PhD2_project.qmd": {
+    "PhD2_project.html": "6bc3b420"
   }
 }
