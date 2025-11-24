@@ -1,7 +1,7 @@
 ---
 title: "Niklas Hlubek"
 subtitle: "Interdisplinary Quantitative Researcher" 
-#image: files/placeholder.jpg
+#image: files/placeholder1.png
 
 about: 
   id: hero-heading
