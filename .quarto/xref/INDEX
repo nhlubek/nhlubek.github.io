@@ -28,5 +28,17 @@
   },
   "projects/PhD2_project.qmd": {
     "PhD2_project.html": "6bc3b420"
+  },
+  "blog/blog.qmd": {
+    "blog.html": "a628b855"
+  },
+  "blog/test/test.qmd": {
+    "test.html": "ffdc792a"
+  },
+  "present/presentation.qmd": {
+    "presentation.html": "a8e3f971"
+  },
+  "research.qmd": {
+    "research.html": "db0e69c3"
   }
 }

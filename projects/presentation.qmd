@@ -1,6 +1,0 @@
----
-title: "Fun Presentation"
-description: "WhatsApp history reveal.js show"
----
-
-[Präsentation](/projects/present.html)

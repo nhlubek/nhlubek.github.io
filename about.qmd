@@ -1,6 +1,6 @@
 ---
 title: "Professional Background"
-date: 2025-10-16
+date: today
 published-title: Last updated
 ---
 

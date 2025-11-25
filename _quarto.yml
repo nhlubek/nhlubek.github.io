@@ -13,10 +13,10 @@ website:
         text: About
       - href: about.qmd
         text: CV
-      - href: projects.qmd
+      - href: research.qmd
         text: Research 
-      # - href: blog.qmd
-      #   text: Blog
+      - href: blog/blog.qmd
+        text: Blog
     right:
       - icon: github
         href: https://github.com/nhlubek
@@ -40,5 +40,7 @@ format:
     smooth-scroll: true
     email-obfuscation: javascript
     page-layout: article
+    code-copy: true
+    
 
 

@@ -8,7 +8,11 @@
     ],
     "blog.qmd": [
       "B3049D40",
-      "posts"
+      "posts",
+      "."
+    ],
+    "blog/blog.qmd": [
+      "."
     ]
   }
 }

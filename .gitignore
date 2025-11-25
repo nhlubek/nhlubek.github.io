@@ -1,5 +1,5 @@
 # Ignore a specific file
-projects/present.html
+present/
 
 .env
 config.json

@@ -1,29 +1,44 @@
 /*-- scss:defaults --*/
-$body-bg: #FAFBFC;
-$body-color: #1D2327;
-$heading-color: #0D1114;
-$border-color: #D8DEE3;
-$muted-color: #66727A;
 
-$link-color: #C43E33; // deep coral
-$link-hover-color: #A9362D;
-$link-decoration: none;
+/* ===============================
+   LIGHT THEME — BASE COLORS
+   =============================== */
 
-$code-color: #1D2327;
-$code-bg: #F1F4F6;
-$code-block-bg-alpha: -.35;
+/* Global background + text colors */
+$body-bg: #FAFBFC; // Light, clean page background
+$body-color: #1D2327; // Primary text color (dark grey)
+$heading-color: #0D1114; // Slightly darker headings for hierarchy
+$border-color: #D8DEE3; // Soft border color for subtle UI divisions
+$muted-color: #66727A; // Muted text (captions, meta info)
 
-$primary: #C43E33;
-$secondary: #2F8F8F;
-$navbar-bg: #bcb5b5ff;
-$navbar-fg: #1D2327;
-$footer-bg: #FFFFFF;
+/* ===============================
+   LINKS
+   =============================== */
+$link-color: #C43E33; // Deep coral links for warmth + emphasis
+$link-hover-color: #A9362D; // Darker coral hover state
+$link-decoration: none; // Remove default underline
 
+/* ===============================
+   CODE & MONOSPACED ELEMENTS
+   =============================== */
+$code-color: #1D2327; // Inline code text
+$code-bg: #F1F4F6; // Inline code background (light grey-blue)
+$code-block-bg-alpha: -.35; // Transparency for code block backgrounds
+
+/* ===============================
+   NAVIGATION
+   =============================== */
+$navbar-bg: #958d87; // Warm taupe-beige nav background (site accent)
+$navbar-fg: #1D2327; // Nav text stays readable but muted
+
+/* ===============================
+   ACCESSIBILITY
+   =============================== */
 a:link {
     text-decoration: none;
 }
 
 :focus-visible {
-    outline: 3px solid rgba(196, 62, 51, .35);
+    outline: 3px solid rgba(196, 62, 51, .35); // Coral-tinted accessibility outline
     outline-offset: 2px;
 }
