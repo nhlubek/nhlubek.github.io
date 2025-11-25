@@ -11,21 +11,21 @@ During my PhD at Utrecht University Medical Center, I studied how socioeconomic 
 
 ---
 
-### Journal Publications
+### Lead Publications
 
 <br> <!-- Phd Paper 3 -->
 
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/envres.jpg){width=120}
+![](/files/journalcover/envres.jpg){width=120}
 :::
 
 ::: {.column width="80%"}
 
 **[Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment](https://doi.org/10.1016/j.envres.2025.123132)**  
-*Environmental Research* (2025) <br>
-N. Hlubek, U. Gehring, J. M.A. Boer, O. Gruzieva, Y. Koop, G. H. Koppelman, E. Melen, R. Vermeulen, J. M. Vonk, J. Vlaanderen, F. Coloma, Z. Yu, I. Vaartjes, C. Tonne, A. Saucy
+Environmental Research* (2025) <br>
+Hlubek N., Gehring U., Boer J. M.A., Gruzieva O., Koop Y., Koppelman G. H., Melen E., Vermeulen R., Vonk J. M., Vlaanderen J., Coloma F., Yu Z., Vaartjes I., Tonne C., Saucy A.
 
 <details>
   <summary>Abstract</summary>
@@ -52,14 +52,14 @@ This study provides some evidence for a relationship between changes in the exte
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/ijenrph.jpg){width=120}
+![](/files/journalcover/ijenrph.jpg){width=120}
 :::
 
 ::: {.column width="80%"}
 
 **[Temporal Trends in Air Pollution Exposure across Socioeconomic Groups in The Netherlands](https://doi.org/10.3390/ijerph21080976)**  
 *International Journal of Environmental Research and Public Health* (2023) <br>
-N. Hlubek, Y. Koop, A. Wagtendonk, I. Vaartjes
+Hlubek N., Koop Y., Wagtendonk A., Vaartjes I.
 
 <details>
   <summary>Abstract</summary>
@@ -83,14 +83,14 @@ In highly urbanized areas, individuals from both the lowest and highest socioeco
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/sopsy.jpg){width=120}
+![](/files/journalcover/sopsy.jpg){width=120}
 :::
 
 ::: {.column width="80%"}
 
 **[A social identity approach to COVID-19 transmission in hospital settings](https://doi.org/10.1111/jasp.12948)**  
 *Journal of Applied Social Psychology* (2022) <br>
-N. Hlubek, A. Templeton, K. Wiseman-Gregg
+Hlubek N., Templeton A., Wiseman-Gregg K.
 
 <details>
   <summary>Abstract</summary>
@@ -109,3 +109,80 @@ Results showed that increased trust in co-workers was associated with reduced ri
 
 ::::
 
+
+### Contributions
+
+<br> <!-- Moritz UKE -->
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](/files/journalcover/psymed.jpg){width=120}
+:::
+
+::: {.column width="80%"}
+
+**[The magnitude of neurocognitive impairment is overestimated in depression: the role of motivation, debilitating momentary influences, and the overreliance on mean differences](https://doi.org/10.1017/S0033291721004785)**  
+*Psychological Medicine* (2022) <br>
+Moritz S., Xie J., Penney D., Biehl L., Hlubek N., Elmers J., Beblo T., Hottenrott B. 
+
+<details>
+  <summary>Abstract</summary>
+
+**Background**: \
+Meta-analyses agree that depression is characterized by neurocognitive dysfunctions relative to nonclinical controls. These deficits allegedly stem from impairments in functionally corresponding brain areas. Increasingly, studies suggest that some performance deficits are in part caused by negative task-taking attitudes such as poor motivation or the presence of distracting symptoms. A pilot study confirmed that these factors mediate neurocognitive deficits in depression. The validity of these results is however questionable given they were based solely on self-report measures. The present study addresses this caveat by having examiners assess influences during a neurocognitive examination, which were concurrently tested for their predictive value on performance. \
+
+**Methods**: \
+Thirty-three patients with depression and 36 healthy controls were assessed on a battery of neurocognitive tests. The examiner completed the Impact on Performance Scale, a questionnaire evaluating mediating influences that may impact performance. \
+
+**Results**: \
+On average, patients performed worse than controls at a large effect size. When the total score of the Impact on Performance Scale was accounted for by mediation analysis and analyses of covariance, group differences were reduced to a medium effect size. A total of 30% of patients showed impairments of at least one standard deviation below the mean.\
+
+**Conclusion**: \ 
+This study confirms that neurocognitive impairment in depression is likely overestimated; future studies should consider fair test-taking conditions. We advise researchers to report percentages of patients showing performance deficits rather than relying solely on overall group differences. This prevents fostering the impression that the majority of patients exert deficits, when in fact deficits are only true for a subgroup.
+</details>
+
+:::
+
+::::
+
+
+### National Journals
+
+<br> <!-- Mental Health Europe -->
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](/files/journalcover/kerbe.jpg){width=120}
+:::
+
+::: {.column width="80%"}
+
+**[Entwicklung der Sozialpsychatrie in Europa - die Sicht von Mental
+Health Europe](https://www.kerbe.info/inhalt/kerbe-forum-fuer-soziale-psychiatrie-heft-4-2022/)**  
+*Kerbe - Forum für soziale Psychatrie* (2022) <br>
+Bomke P., Hlubek N.
+
+:::
+
+::::
+
+<br> <!-- UKE -->
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](/files/journalcover/zaktuell.jpg){width=120}
+:::
+
+::: {.column width="80%"}
+
+**[Zwangsstörungen während
+COVID-19: Sind Menschen mit Waschzwängen besonders betroffen](https://www.zwaenge.de/z-aktuell/themenspeicher/)**  
+*z-aktuell* (2020) <br>
+Jelinek J., Hlubek N., Moritz S., Miegel F., Voderholzer U.
+
+:::
+
+::::
