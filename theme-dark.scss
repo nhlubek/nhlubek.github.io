@@ -5,7 +5,7 @@
    =============================== */
 
 /* Global background + text */
-$body-bg: #131516; // Graphite background (low-glare dark)
+$body-bg: #171A1C; // Graphite background (low-glare dark)
 $body-color: #E7E9EA; // Light grey text with no blue tint
 $heading-color: #F5F7F8; // Slightly brighter headings for hierarchy
 $border-color: #2A2E31; // Subtle dark borders
@@ -15,7 +15,7 @@ $muted-color: #AAB1B6; // Muted grey for metadata/captions
    LINKS (recommended cool contrast accent)
    =============================== */
 /* Teal-blue complements the warm taupe from the light theme */
-$link-color: #5E8E87; // Desaturated teal — pleasant + readable
+$link-color: #E05A4F; // Desaturated teal — pleasant + readable
 $link-hover-color: #4F7B75; // Darker teal for clear hover state
 $link-decoration: none;
 
@@ -35,7 +35,7 @@ $code-block-bg-alpha: -.85; // Much darker code-block background
 /* ===============================
    NAVIGATION (mirrors light theme’s taupe accent)
    =============================== */
-$navbar-bg: #878F95; // Deep warm taupe (dark-mode version)
+$navbar-bg: #2C2521; // Deep warm taupe (dark-mode version)
 $navbar-fg: #E7E9EA; // Soft light text for readability
 
 /* If you want more accent pop, try:
