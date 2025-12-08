@@ -1,27 +1,5 @@
 [
   {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/PhD2_project.html",
-      "/projects/PhD1_project.html",
-      "/projects/UoE_project.html",
-      "/projects/UU_project.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/projects/presentation.html",
-      "/index.html",
-      "/projects.html",
-      "/about.html",
-      "/projects/PhD2_project.html",
-      "/projects/PhD1_project.html",
-      "/projects/UoE_project.html",
-      "/projects/UU_project.html"
-    ]
-  },
-  {
     "listing": "/blog/blog.html",
     "items": [
       "/blog/test/test.html"

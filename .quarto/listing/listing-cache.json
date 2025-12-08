@@ -1,16 +1,5 @@
 {
   "listingMap": {
-    "projects.qmd": [
-      "projects/UoE_project.qmd",
-      "projects/UU_project.qmd",
-      "projects/PhD1_project.qmd",
-      "projects/PhD2_project.qmd"
-    ],
-    "blog.qmd": [
-      "B3049D40",
-      "posts",
-      "."
-    ],
     "blog/blog.qmd": [
       "."
     ]
