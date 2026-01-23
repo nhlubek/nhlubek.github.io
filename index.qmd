@@ -1,6 +1,6 @@
 ---
 title: "Niklas Hlubek"
-subtitle: "Interdisplinary Quantitative Researcher" 
+subtitle: "Statistical Epidemiologist" 
 #image: files/placeholder1.png
 
 about: 
