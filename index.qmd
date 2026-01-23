@@ -27,18 +27,9 @@ format:
 :::{#hero-heading}
 
 <p style="text-align: justify;">
-I’m Niklas, a quantitative researcher interested in making sense of complex societal questions through data. I work with a range of sources—including surveys, policy data, and population registers—to generate practical, evidence-informed insights.
+I’m Niklas, a researcher and statistical programmer at the University Medical Center Utrecht in the Data Science and Biostatistics department. I recently completed my PhD, where I focused on  population registry data linkage to address environmental public health questions.
 </p>
-
-*What I do:*
-
-- **Quantitative Analysis & Modeling** – Longitudinal, spatial, and applied statistical approaches  
-- **Evaluation & Monitoring** – Designing studies and indicators to understand impact  
-- **Data Visualization** – Clear communication through reports and dashboards  
-- **Interdisciplinary Work** – Background in public health, psychology, environment, and policy  
 
 *You can explore my [projects](/projects.qmd), find more information in my [CV](/about.qmd), or read a [blog entry](/blog/blog.qmd).*
 
 :::
-
-
