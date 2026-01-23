@@ -30,6 +30,6 @@ format:
 I’m Niklas, a researcher and statistical programmer at the University Medical Center Utrecht in the Data Science and Biostatistics department. I recently completed my PhD, where I focused on  population registry data linkage to address environmental public health questions.
 </p>
 
-*You can explore my [projects](/projects.qmd), find more information in my [CV](/about.qmd), or read a [blog entry](/blog/blog.qmd).*
+*You can explore my [projects](/research.qmd), find more information in my [CV](/about.qmd).*
 
 :::
