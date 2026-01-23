@@ -3,5 +3,3 @@ present/
 
 .env
 config.json
-/.quarto/
-**/*.quarto_ipynb
