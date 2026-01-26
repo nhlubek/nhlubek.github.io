@@ -1,8 +1,8 @@
 ---
-title: "Test"
-description: "Description"
+title: "Bootstrapping"
+description: "Small overview based on Quantitude"
 date: today
 # slug: interaction-effects
 toc: true
-categories: [test, R]
+categories: [Statistics]
 ---

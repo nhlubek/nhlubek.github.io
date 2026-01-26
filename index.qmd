@@ -9,7 +9,7 @@ about:
   links: 
     - text: "{{< iconify material-symbols-light mail-outline>}}"
       aria-label: "Mail"
-      href: mailto:niklas.hlubek@yahoo.de
+      href: n.hlubek@umcutrecht.nl
     
     - text: "{{< iconify fa6-brands linkedin >}}"
       aria-label: "LinkedIn"
