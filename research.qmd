@@ -24,7 +24,7 @@ During my PhD at Utrecht University Medical Center, I studied how socioeconomic 
 ::: {.column width="80%"}
 
 **[Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment](https://doi.org/10.1016/j.envres.2025.123132)**  
-Environmental Research* (2025) <br>
+*Environmental Research* (2025) <br>
 Hlubek N., Gehring U., Boer J. M.A., Gruzieva O., Koop Y., Koppelman G. H., Melen E., Vermeulen R., Vonk J. M., Vlaanderen J., Coloma F., Yu Z., Vaartjes I., Tonne C., Saucy A.
 
 <details>

@@ -1,6 +1,5 @@
 # Ignore a specific file
 present/
-
 .env
 config.json
 
