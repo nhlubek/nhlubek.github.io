@@ -13,6 +13,95 @@ During my PhD at Utrecht University Medical Center, I studied how socioeconomic 
 
 ### Lead Publications
 
+<br> <!-- Phd Paper 4 -->
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](/files/journalcover/stoten.jpg){width=120}
+:::
+
+::: {.column width="80%"}
+
+**[Air pollution and ischemic stroke across socioeconomic groups in the Netherlands](https://doi.org/10.1016/j.scitotenv.2026.181543)**  
+*Science of The Total Environment* (2026) <br>
+Hlubek N., Verhoeven J., Koop Y., Wagtendonk A., Vienneau D., Vaartjes I.
+
+<details>
+  <summary>Abstract</summary>
+
+**Introduction**: \
+While air pollution is an established risk factor for ischemic stroke (IS), evidence on differential susceptibility across population subgroups remains limited. We investigated how associations between long-term air pollution exposure and IS risk varied across socioeconomic groups and urbanicity levels.\
+
+**Methods**: \
+This population based cohort study included 11.9 million adults ≥18 years with linked residential exposure data for PM2.5, PM10, and NO2. Socioeconomic position was assessed using individual-level and area-level indicators including welfare, education, employment history, and composite scores. Time-varying Cox proportional hazards models examined associations between annual average air pollution at home addresses and incident IS risk across socioeconomic and urbanicity groups. \
+
+**Results**: \
+During 2014-2019 follow-up, 152,868 incident IS cases were identified. Air pollution exposure was associated with increased IS risk for all pollutants: hazard ratios (HR) 1.07 [95% CI: 1.06; 1.08] per 5.0 μg/m³ PM2.5, 1.06 [1.05; 1.07] per 5.0 μg/m3 PM10, and 1.08 [1.08; 1.09] per 10 μg/m³ NO2. Associations were stronger in rural to moderately urbanised versus highly urbanised areas. Socioeconomic differences were most pronounced in rural to moderately urbanised areas, with consistently higher HRs among lower socioeconomic groups (e.g., lowest area-level education: HR 1.16 [1.08; 1.25] per 5.0 μg/m³ PM2.5), while disparities were minimal in highly urbanised areas. \
+
+**Conclusion**: \ 
+Air pollution's impact on IS risk varies significantly by socioeconomic position and urbanicity, with lower socioeconomic groups in rural to moderately urbanised areas showing increased vulnerability. These findings emphasize considering geographic and socioeconomic contexts in air pollution health assessments.
+</details>
+
+:::
+
+::::
+
+<br> <!-- Phd Paper 2 -->
+
+:::: {.columns}
+
+::: {.column width="20%"}
+![](/files/journalcover/healthplace.jpg){width=120}
+:::
+
+::: {.column width="80%"}
+
+**[Longitudinal air pollution exposure patterns by neighbourhood-level socioeconomic position and urbanicity](https://doi.org/10.1016/j.healthplace.2026.103633)**  
+*Health & Place* (2026) <br>
+Hlubek N., Koop Y., Wagtendonk A., Vaartjes I.
+
+<details>
+  <summary>Abstract</summary>
+
+**Introduction**: \
+Socioeconomic inequalities in residential air pollution exposure persist across
+Europe, yet few studies use multiple socioeconomic indicators to assess how
+exposure disparities change over time.\
+
+**Methods**: \
+We analysed data from approximately 12 million individuals (≥18 years) in the
+Netherlands (2014-2019). Annual average air pollution concentrations (PM2.5, PM10,
+NO2) were estimated using dispersion models from the National Institute for Public
+Health and the Environment and linked to neighbourhood-level socioeconomic data
+(financial welfare, education, employment history). We calculated estimated marginal
+means to compare exposure across socioeconomic groups, stratified by urbanicity
+and used a concentration index to assess temporal trends in exposure disparities. \
+
+**Results**: \
+Air pollution levels decreased substantially across all socioeconomic groups between
+2014-2019. Exposure patterns varied fundamentally by urbanicity. In rural to
+moderately urbanised areas, higher socioeconomic neighbourhoods consistently
+showed higher exposure across all pollutants. In highly urbanised areas, exposure
+disparities were most pronounced for NO2, with lower socioeconomic
+neighbourhoods (welfare, employment, composite indicators) experiencing higher
+concentrations, while education showed a reversed pattern with higher exposures in
+more educated neighbourhoods. Low socioeconomic groups generally experienced
+stronger relative reductions in exposure. Temporal inequality analysis revealed
+generally stable or decreasing disparities, except for education in highly urbanised
+areas where the exposure gap between education levels widened. \
+
+**Conclusion**: \ 
+While air pollution concentrations decreased for all socioeconomic groups, exposure
+patterns depend critically on urbanicity level and choice of socioeconomic indicator.
+Multiple indicators are needed to capture the complex pathways linking
+socioeconomic position to air pollution exposure, particularly in urban contexts.
+</details>
+
+:::
+
+::::
+
 <br> <!-- Phd Paper 3 -->
 
 :::: {.columns}
