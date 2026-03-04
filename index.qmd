@@ -30,7 +30,7 @@ format:
 I’m Niklas, a researcher and statistical programmer at the University Medical Center Utrecht. 
 </p>
 
-I recently completed my PhD, where I specialized in population registry linkage to address environmental public health questions.
+I recently completed my PhD. in Epidemiology, where I specialized in population registry linkage to address environmental public health questions. \
 Currently, I am a member of the Real-World Evidence (RWE) Group within the Department of Data Science and Biostatistics. 
 </p>
 

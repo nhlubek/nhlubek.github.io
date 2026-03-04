@@ -22,12 +22,7 @@ website:
         href: https://github.com/nhlubek
         text: GitHub
   back-to-top-navigation: true
-  # announcement: 
-  #   content: "Test" 
-  #   icon: info-circle
-  #   dismissable: true
-  #   type: dark
-  #   position: below-navbar
+
 
 format:
   html:
@@ -35,12 +30,10 @@ format:
       light: [cosmo, theme-light.scss]
       dark: [cosmo, theme-dark.scss]
     mainfont: Computer Modern, sans-serif;
-    css: styles.css
+    css: styles-extras.css
     toc: true
     smooth-scroll: true
     email-obfuscation: javascript
     page-layout: article
     code-copy: true
     
-
-

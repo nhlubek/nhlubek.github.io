@@ -1,7 +1,11 @@
 {
   "listingMap": {
     "blog/blog.qmd": [
-      "."
+      ".",
+      "/blog",
+      "./blog",
+      "blog",
+      "/Users/nik/Documents/nhlubek.github.io/blog"
     ]
   }
 }

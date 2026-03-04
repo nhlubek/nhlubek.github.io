@@ -40,5 +40,11 @@
   },
   "research.qmd": {
     "research.html": "db0e69c3"
+  },
+  "blog/causal-inference-observational/index.qmd": {
+    "index.html": "af6af053"
+  },
+  "blog/rwe-primer/index.qmd": {
+    "index.html": "1d986974"
   }
 }

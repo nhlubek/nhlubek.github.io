@@ -5,9 +5,9 @@ published-title: Last updated
 slug:
 ---
 
-In my research I have been interestesd in social science, epidemiological and environmental science topics. I have experience using advanced statistical methods and large-scale datasets to get data-driven insights that can inform public health, social policy, and clinical practice.
+My research focuses on generating real-world evidence from large-scale administrative and registry data to understand how environmental exposures and socioeconomic conditions shape population health. I apply methods from epidemiology and causal inference — including time-to-event models, difference-in-differences designs, and spatial analysis — to questions that matter for public health policy and clinical practice.
 
-During my PhD at Utrecht University Medical Center, I studied how socioeconomic and environmental factors are associated public health using nationwide longitudinal registry data. My research integrates causal inference, spatial analysis, and time-to-event modeling to generate evidence that can guide policy and improve urban well-being. These projects has been part of the European Union’s H2020 <a href="https://surreal-itn.eu/">SURREAL Urban Health Network</a>, which was a collaborative initiative focused on advancing research in sustainable and equitable urban health.
+During my PhD at Utrecht University Medical Center, I linked nationwide registry data covering over 12 million individuals to study socioeconomic inequalities in residential air pollution exposure and their consequences for cardiovascular and respiratory health. This work was part of the European Union’s H2020 <a href="https://surreal-itn.eu/">SURREAL Urban Health Network</a>, a collaborative initiative advancing research in sustainable and equitable urban health.
 
 ---
 
