@@ -15,8 +15,6 @@ website:
         text: CV
       - href: research.qmd
         text: Research 
-      # - href: blog/blog.qmd
-      #   text: Blog
     right:
       - icon: github
         href: https://github.com/nhlubek

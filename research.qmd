@@ -7,18 +7,53 @@ slug:
 
 My research focuses on generating real-world evidence from large-scale administrative and registry data to understand how environmental exposures and socioeconomic conditions shape population health. I apply methods from epidemiology and causal inference — including time-to-event models, difference-in-differences designs, and spatial analysis — to questions that matter for public health policy and clinical practice.
 
-During my PhD at Utrecht University Medical Center, I linked nationwide registry data covering over 12 million individuals to study socioeconomic inequalities in residential air pollution exposure and their consequences for cardiovascular and respiratory health. This work was part of the European Union’s H2020 <a href="https://surreal-itn.eu/">SURREAL Urban Health Network</a>, a collaborative initiative advancing research in sustainable and equitable urban health.
+During my PhD at Utrecht University Medical Center, I linked nationwide registry with environmental and economic data to study socioeconomic inequalities in residential air pollution exposure and their consequences for health outcomes. This work was part of the European Union’s H2020 <a href="https://surreal-itn.eu/">SURREAL Urban Health Network</a>, a collaborative initiative advancing research in sustainable and equitable urban health.
 
 ---
 
 ### Lead Publications
+
+<br> <!-- Phd Paper 5 -->
+
+:::: {.columns}
+
+::: {.column width="20%"}
+[![](/files/journalcover/envint.jpg){width=120}](https://doi.org/10.1016/j.envint.2026.110351)
+:::
+
+::: {.column width="80%"}
+
+**[Air pollution and mortality across socioeconomic groups in the Netherlands](https://doi.org/10.1016/j.envint.2026.110351)**  
+*Environment International* (2026) <br>
+Hlubek N., Vienneau D., Wagtendonk A., van den Brekel L., Vaartjes I., Koop Y.
+
+<details>
+  <summary>Abstract</summary>
+
+**Background**: \
+We investigated whether associations between long-term air pollution and (cause-specific) mortality outcomes differ across socioeconomic position (SEP) groups in the Netherlands. \
+
+**Methods**: \
+This nationwide cohort study included 9.9 million adults aged ≥30 years, from 2014 to 2019 in the Netherlands. We linked annual average residential exposure to particulate matter (PM2.5, PM10), and nitrogen dioxide (NO2) with household- and neighbourhood-level socioeconomic indicators (financial welfare, education, employment history), as well as the national death register. Using Cox proportional hazards models, we estimated hazard ratios (HRs) and absolute rate differences to assess relative and absolute inequalities in air pollution-related mortality. \
+
+**Results**: \
+Higher air pollution exposure was associated with increased mortality across pollutants and mortality outcomes. For example, a 5 µg/m3 increase in PM2.5 was associated with a HR of 1.07 (95% CI: 1.06–1.08) for all natural-cause mortality. Relative risk estimates showed no consistent socioeconomic gradient and varieddepending on the indicator used. Absolute rate differences, however, showed a more consistent pattern where groups with lower household-level socioeconomic positionexperienced greater absolute mortality burdens from air pollution, driven by their higher baseline mortality rates. \
+
+**Conclusion**: \
+While air pollution increases mortality across all socioeconomic groups, disadvantaged populations bear disproportionate absolute burdens. Absolute risk measures reveal steeper health disparities than relative risks, underscoring the importance of reporting both metrics to fully capture environmental health inequities. \
+
+</details>
+
+:::
+
+::::
 
 <br> <!-- Phd Paper 4 -->
 
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/journalcover/stoten.jpg){width=120}
+[![](/files/journalcover/stoten.jpg){width=120}](https://doi.org/10.1016/j.scitotenv.2026.181543)
 :::
 
 ::: {.column width="80%"}
@@ -52,7 +87,7 @@ Air pollution's impact on IS risk varies significantly by socioeconomic position
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/journalcover/healthplace.jpg){width=120}
+[![](/files/journalcover/healthplace.jpg){width=120}](https://doi.org/10.1016/j.healthplace.2026.103633)
 :::
 
 ::: {.column width="80%"}
@@ -107,7 +142,7 @@ socioeconomic position to air pollution exposure, particularly in urban contexts
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/journalcover/envres.jpg){width=120}
+[![](/files/journalcover/envres.jpg){width=120}](https://doi.org/10.1016/j.envres.2025.123132)
 :::
 
 ::: {.column width="80%"}
@@ -141,7 +176,7 @@ This study provides some evidence for a relationship between changes in the exte
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/journalcover/ijenrph.jpg){width=120}
+[![](/files/journalcover/ijenrph.jpg){width=120}](https://doi.org/10.3390/ijerph21080976)
 :::
 
 ::: {.column width="80%"}
@@ -172,7 +207,7 @@ In highly urbanized areas, individuals from both the lowest and highest socioeco
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/journalcover/sopsy.jpg){width=120}
+[![](/files/journalcover/sopsy.jpg){width=120}](https://doi.org/10.1111/jasp.12948)
 :::
 
 ::: {.column width="80%"}
@@ -206,7 +241,7 @@ Results showed that increased trust in co-workers was associated with reduced ri
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/journalcover/psymed.jpg){width=120}
+[![](/files/journalcover/psymed.jpg){width=120}](https://doi.org/10.1017/S0033291721004785)
 :::
 
 ::: {.column width="80%"}
@@ -243,7 +278,7 @@ This study confirms that neurocognitive impairment in depression is likely overe
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/journalcover/kerbe.jpg){width=120}
+[![](/files/journalcover/kerbe.jpg){width=120}](https://www.kerbe.info/inhalt/kerbe-forum-fuer-soziale-psychiatrie-heft-4-2022/)
 :::
 
 ::: {.column width="80%"}
@@ -262,7 +297,7 @@ Bomke P., Hlubek N.
 :::: {.columns}
 
 ::: {.column width="20%"}
-![](/files/journalcover/zaktuell.jpg){width=120}
+[![](/files/journalcover/zaktuell.jpg){width=120}](https://www.zwaenge.de/z-aktuell/themenspeicher/)
 :::
 
 ::: {.column width="80%"}
