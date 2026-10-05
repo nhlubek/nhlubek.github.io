@@ -1,0 +1,64 @@
+---
+title: "What Is Real-World Evidence — and Why Does It Matter?"
+description: "A primer on RWE: what it is, where it comes from, and why it's changing how we evaluate health interventions."
+date: 2026-03-01
+draft: true
+toc: true
+categories: [RWE, Epidemiology]
+---
+
+## The Gap Between Trials and Practice
+
+Randomized controlled trials (RCTs) are the gold standard for establishing whether a treatment works. Their design is elegant: randomize participants, control everything you can, measure the outcome. The problem is that the populations enrolled in trials are often narrow — younger, healthier, more compliant than the patients who will actually receive the treatment. Comorbidities that would exclude a patient from a trial are routine in clinical practice. Drug interactions studied in isolation play out differently in patients on polypharmacy regimens.
+
+This gap between efficacy (does it work under ideal conditions?) and effectiveness (does it work in practice?) is where **real-world evidence** enters.
+
+## What Counts as Real-World Data?
+
+Real-world data (RWD) is any data collected outside the controlled setting of a clinical trial. The most common sources are:
+
+- **Administrative and claims data** — insurance records, hospital billing data, reimbursement claims. Comprehensive, longitudinal, but collected for administrative rather than scientific purposes.
+- **Electronic health records (EHRs)** — clinical notes, lab values, prescriptions, diagnoses. Rich in clinical detail, but often incomplete or inconsistently coded.
+- **Disease and population registries** — curated databases of patients with a specific condition, or entire national populations (as used in Scandinavian and Dutch research). Often linkable across domains.
+- **Patient-reported outcomes and wearables** — self-reported symptoms, activity data, monitoring devices. Still emerging as a rigorous evidence source.
+
+Real-world evidence (RWE) is what you extract from these data through rigorous analysis.
+
+## Why Now?
+
+Several forces are converging to push RWE to the center of health research:
+
+**Data availability.** The digitization of health records and the expansion of national registry infrastructure (particularly in Northern Europe) means that data on millions of individuals, followed for years, is now accessible for research.
+
+**Regulatory interest.** The FDA's 21st Century Cures Act explicitly called for frameworks to use RWE in regulatory decisions. The EMA has similar programs. Regulators are increasingly willing to accept RWE to support label extensions, post-market surveillance, and — in some cases — primary approval.
+
+**Computational capacity.** Linking, cleaning, and modeling datasets with tens of millions of rows was not practically feasible a decade ago. It is now.
+
+## The Methodological Challenge
+
+None of this means RWE is easy or that observational data can simply replace trials. The central challenge is confounding: in the real world, who gets treated is not random. Patients who receive a particular drug differ systematically from those who don't, and those differences are often related to the outcome you're trying to study.
+
+The methods developed to address this — propensity score weighting, instrumental variables, difference-in-differences, target trial emulation — are the tools of modern epidemiology and causal inference. They do not eliminate the problem, but they make it tractable under explicit and testable assumptions.
+
+The target trial emulation framework, developed by Hernán and Robins, is particularly useful: it asks you to explicitly specify the hypothetical randomized trial your observational study is trying to emulate. This forces clarity about the causal question, the eligibility criteria, the treatment strategy, and the analysis plan — and makes the assumptions transparent.
+
+## What RWE Can and Cannot Do
+
+RWE is well-suited for:
+
+- Studying long-term outcomes (trials rarely run for decades)
+- Capturing rare outcomes or subgroup effects (large populations give statistical power)
+- Evaluating treatments as they are actually used — doses adjusted, drugs switched, adherence variable
+- Post-market surveillance and safety monitoring
+
+It is less suited for:
+
+- Establishing causality in the absence of strong natural experiments or careful design
+- Outcomes that are poorly captured in administrative data (subjective, functional, patient-reported)
+- Situations where unmeasured confounding cannot be plausibly ruled out
+
+## Where This Is Heading
+
+The boundary between trial-based and real-world evidence is becoming more porous. Pragmatic trials — randomized but conducted in routine care settings — combine the causal clarity of randomization with the representativeness of real-world populations. Registry-based randomized controlled trials, which embed randomization into existing registries, are a growing approach.
+
+At the same time, the methods for extracting causal estimates from observational data continue to improve. Understanding both the possibilities and the limits of RWE is, increasingly, a core skill for researchers working in health and medicine.

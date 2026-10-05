@@ -1,16 +1,23 @@
 ---
 title: "Niklas Hlubek"
-subtitle: "Real-World Evidence Researcher" 
+subtitle: "Real-World Evidence Researcher"
 #image: files/placeholder1.png
+toc: false
+open-graph:
+  title: "Niklas Hlubek – Real-World Evidence Researcher"
+  description: "Epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht."
+twitter-card:
+  title: "Niklas Hlubek – Real-World Evidence Researcher"
+  description: "Epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht."
 
-about: 
+about:
   id: hero-heading
   template: solana
-  links: 
+  links:
     - text: "{{< iconify material-symbols-light mail-outline>}}"
       aria-label: "Mail"
-      href: n.hlubek@umcutrecht.nl
-    
+      href: mailto:n.hlubek@umcutrecht.nl
+
     - text: "{{< iconify fa6-brands linkedin >}}"
       aria-label: "LinkedIn"
       href: https://www.linkedin.com/in/niklas-hlubek/
@@ -19,21 +26,29 @@ about:
       aria-label: "GitHub"
       href: https://github.com/nhlubek
 
+    - text: "{{< iconify academicons google-scholar >}}"
+      aria-label: "Google Scholar"
+      href: https://scholar.google.com/citations?user=Lkd3H1kAAAAJ
+
+    - text: "{{< iconify academicons orcid >}}"
+      aria-label: "ORCID"
+      href: https://orcid.org/0000-0001-5995-6160
+
 format:
-    html: 
+    html:
         css: index.css
 ---
 
 :::{#hero-heading}
 
-<p style="text-align: justify;">
-I’m Niklas, a researcher and statistical programmer at the University Medical Center Utrecht. 
-</p>
+I'm Niklas, an epidemiologist and statistical programmer in the Real-World Evidence (RWE) Group at the University Medical Center Utrecht.
 
-I recently completed my PhD. in Epidemiology, where I specialized in population registry linkage to address environmental public health questions. \
-Currently, I am a member of the Real-World Evidence (RWE) Group within the Department of Data Science and Biostatistics. 
-</p>
+Medicines are tested in clinical trials, but many questions about their safety can only be answered once they are used by millions of people in everyday care. My work is about answering those questions with real-world health data. Together with data partners across Europe, I work on drug safety (pharmacovigilance) studies: designing analyses that mimic a randomised trial (target trial emulation), building reproducible pipelines that turn routinely collected data into reliable evidence, and reporting results that inform regulatory decisions.
 
-*Explore the [research projects](/research.qmd) that I have been involved in or view my [CV](/about.qmd).*
+In my PhD in Epidemiology at Utrecht University, I linked nationwide Dutch registry data with environmental and socioeconomic data to ask who is exposed to air pollution, and who bears its health consequences. Before epidemiology, I trained in psychology and worked in clinical research and European mental health policy, experience that still shapes how I think about study design, measurement, and how research reaches people.
+
+**Interests:** real-world evidence · drug safety · target trial emulation · causal inference · reproducible pipelines · environmental epidemiology
+
+*Explore my [research](/research.qmd) or view my [CV](/about.qmd).*
 
 :::

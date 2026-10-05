@@ -1,5 +1,10 @@
 /*-- scss:defaults --*/
 
+// Web fonts: Inter for body text, Source Serif 4 for headings
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap');
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, serif;
+
 /* ===============================
    DARK THEME — BASE COLORS
    =============================== */
@@ -12,24 +17,17 @@ $border-color: #2A2E31; // Subtle dark borders
 $muted-color: #AAB1B6; // Muted grey for metadata/captions
 
 /* ===============================
-   LINKS (recommended cool contrast accent)
+   LINKS — coral accent, matching the light theme
    =============================== */
-/* Teal-blue complements the warm taupe from the light theme */
-$link-color: #E05A4F; // Desaturated teal — pleasant + readable
-$link-hover-color: #4F7B75; // Darker teal for clear hover state
+$link-color: #E05A4F; // Coral, brightened for dark backgrounds
+$link-hover-color: #EB8279; // Lighter coral hover state
 $link-decoration: none;
-
-/* Optional alternatives:
-   #8FAF9F (sage)
-   #7C93A6 (dusty blue)
-   #B87A5B (muted copper)
-*/
 
 /* ===============================
    CODE & MONOSPACED ELEMENTS
    =============================== */
 $code-color: #F1F4F6; // Light text inside code
-$code-bg: rgba(#5E8E87, .14); // Teal-tinted background for inline code
+$code-bg: rgba(#E05A4F, .12); // Coral-tinted background for inline code
 $code-block-bg-alpha: -.85; // Much darker code-block background
 
 /* ===============================
@@ -38,9 +36,6 @@ $code-block-bg-alpha: -.85; // Much darker code-block background
 $navbar-bg: #2C2521; // Deep warm taupe (dark-mode version)
 $navbar-fg: #E7E9EA; // Soft light text for readability
 
-/* If you want more accent pop, try:
-   $navbar-fg: #A4C9C4; // pale teal highlight
-*/
 
 /* ===============================
    ACCESSIBILITY
@@ -50,28 +45,27 @@ a:link {
 }
 
 :focus-visible {
-    outline: 3px solid rgba(94, 142, 135, .55); // Teal-tinted outline (matches dark accent)
+    outline: 3px solid rgba(224, 90, 79, .55); // Coral-tinted outline (matches accent)
     outline-offset: 2px;
 }
 
 /* Back-to-top button styling for dark theme */
 #quarto-back-to-top {
-    background-color: #5E8E87;
-    /* teal accent */
-    border-color: #5E8E87;
+    background-color: #E05A4F;
+    /* coral accent */
+    border-color: #E05A4F;
     color: #0E0F10;
     /* dark icon for contrast */
     transition: background-color .2s ease, color .2s ease, transform .15s ease;
 }
 
 #quarto-back-to-top:hover {
-    background-color: #4F7B75;
-    /* darker teal on hover */
-    border-color: #4F7B75;
-    color: #FFFFFF;
+    background-color: #EB8279;
+    /* lighter coral on hover */
+    border-color: #EB8279;
 }
 
 #quarto-back-to-top:focus-visible {
-    outline: 3px solid rgba(94, 142, 135, .55);
+    outline: 3px solid rgba(224, 90, 79, .55);
     outline-offset: 3px;
 }

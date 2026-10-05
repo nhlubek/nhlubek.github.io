@@ -1,10 +1,19 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!blog/"
 
 website:
   favicon: files/NH.png
-  title: "**Niklas Hlubek**"
+  title: "Niklas Hlubek"
+  site-url: https://nhlubek.github.io
+  description: "Niklas Hlubek, epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht."
+  image: files/NH.png
+  open-graph: true
+  twitter-card:
+    card-style: summary
   navbar:
     search: true
     collapse: true
@@ -20,6 +29,9 @@ website:
         href: https://github.com/nhlubek
         text: GitHub
   back-to-top-navigation: true
+  page-footer:
+    left: "© 2026 Niklas Hlubek"
+    right: "Built with [Quarto](https://quarto.org/)"
 
 
 format:
@@ -27,7 +39,6 @@ format:
     theme:
       light: [cosmo, theme-light.scss]
       dark: [cosmo, theme-dark.scss]
-    mainfont: Computer Modern, sans-serif;
     css: styles-extras.css
     toc: true
     smooth-scroll: true
