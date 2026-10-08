@@ -30,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -42,21 +41,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b5b43e92725e747e594a812a35ce2926.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-697d9c76ff27d536ab364a7c9f13c328.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-b5b43e92725e747e594a812a35ce2926.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-ceda017abcdce30f61405b77487feadf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -78,301 +72,261 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles-extras.css">
-<link rel="stylesheet" href="index.css">
-<meta property="og:title" content="Niklas Hlubek – Real-World Evidence Researcher">
+<meta property="og:title" content="Niklas Hlubek">
 <meta property="og:description" content="Epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht.">
-<meta property="og:image" content="https://nhlubek.github.io/files/NH.png">
+<meta property="og:image" content="https://nhlubek.github.io/files/journalcover/envint.jpg">
 <meta property="og:site_name" content="Niklas Hlubek">
-<meta property="og:image:height" content="512">
-<meta property="og:image:width" content="512">
-<meta name="twitter:title" content="Niklas Hlubek – Real-World Evidence Researcher">
+<meta property="og:image:alt" content="">
+<meta name="twitter:title" content="Niklas Hlubek">
 <meta name="twitter:description" content="Epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht.">
-<meta name="twitter:image" content="https://nhlubek.github.io/files/NH.png">
+<meta name="twitter:image" content="https://nhlubek.github.io/files/journalcover/envint.jpg">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image-height" content="512">
-<meta name="twitter:image-width" content="512">
+<meta name="twitter:image:alt" content="">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Niklas Hlubek</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="https://github.com/nhlubek"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text">GitHub</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
 
-
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Niklas Hlubek</h1>
-<p class="subtitle lead">Real-World Evidence Researcher</p>
+<div class="profile-container">
+<div class="profile-image">
+<!-- Swap for a headshot, e.g. files/headshot.jpg -->
+<p><img src="files/NH.png" class="img-fluid" alt="Niklas Hlubek"></p>
+<div class="profile-contact">
+<p><script type="text/javascript">
+<!--
+h='&#x75;&#x6d;&#x63;&#x75;&#116;&#114;&#x65;&#x63;&#104;&#116;&#46;&#110;&#108;';a='&#64;';n='&#110;&#46;&#104;&#108;&#x75;&#98;&#x65;&#x6b;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>n.hlubek at umcutrecht dot nl</noscript><br> <a href="files/cv.pdf">Curriculum Vitae</a><br> <a href="https://scholar.google.com/citations?user=Lkd3H1kAAAAJ">Google Scholar</a><br> <a href="https://www.linkedin.com/in/niklas-hlubek/">LinkedIn</a></p>
 </div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="mailto:n.hlubek@umcutrecht.nl" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="material-symbols-light:mail-outline" aria-label="Icon mail-outline from material-symbols-light Iconify.design set." title="Icon mail-outline from material-symbols-light Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://www.linkedin.com/in/niklas-hlubek/" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:linkedin" aria-label="Icon linkedin from fa6-brands Iconify.design set." title="Icon linkedin from fa6-brands Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://github.com/nhlubek" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="octicon:mark-github-24" aria-label="Icon mark-github-24 from octicon Iconify.design set." title="Icon mark-github-24 from octicon Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=Lkd3H1kAAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:google-scholar" aria-label="Icon google-scholar from academicons Iconify.design set." title="Icon google-scholar from academicons Iconify.design set."></iconify-icon></span>
-  </a>
-  <a href="https://orcid.org/0000-0001-5995-6160" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="academicons:orcid" aria-label="Icon orcid from academicons Iconify.design set." title="Icon orcid from academicons Iconify.design set."></iconify-icon></span>
-  </a>
 </div>
-      <div class="about-contents"><div id="hero-heading">
-<p>I’m Niklas, an epidemiologist and statistical programmer in the Real-World Evidence (RWE) Group at the University Medical Center Utrecht.</p>
-<p>Medicines are tested in clinical trials, but many questions about their safety can only be answered once they are used by millions of people in everyday care. My work is about answering those questions with real-world health data. Together with data partners across Europe, I work on drug safety (pharmacovigilance) studies: designing analyses that mimic a randomised trial (target trial emulation), building reproducible pipelines that turn routinely collected data into reliable evidence, and reporting results that inform regulatory decisions.</p>
-<p>In my PhD in Epidemiology at Utrecht University, I linked nationwide Dutch registry data with environmental and socioeconomic data to ask who is exposed to air pollution, and who bears its health consequences. Before epidemiology, I trained in psychology and worked in clinical research and European mental health policy, experience that still shapes how I think about study design, measurement, and how research reaches people.</p>
-<p><strong>Interests:</strong> real-world evidence · drug safety · target trial emulation · causal inference · reproducible pipelines · environmental epidemiology</p>
-<p><em>Explore my <a href="./research.html">research</a> or view my <a href="./about.html">CV</a>.</em></p>
-</div></div>
-    </div>
-  </div>
+<div class="profile-content">
+<h2 class="main-title">
+Niklas Hlubek
+</h2>
+<p>I am an epidemiologist and statistical programmer in the Real-World Evidence group at <a href="https://www.umcutrecht.nl/en">UMC Utrecht</a>, working on drug safety studies with data partners across Europe. My work focuses on target trial emulation and reproducible R pipelines for regulatory decision-making.</p>
+<p>I hold a PhD in Epidemiology from Utrecht University, where I studied socioeconomic inequalities in air pollution exposure and their health effects using linked nationwide Dutch registry data. It was funded by a Marie Skłodowska-Curie fellowship within the EU <a href="https://surreal-itn.eu/">SURREAL</a> network.</p>
+<p>Before that, I worked in clinical research and European mental health policy.</p>
+<details class="section">
+<summary>
+Research
+</summary>
+<div class="paper">
+<p><a href="https://doi.org/10.1016/j.envint.2026.110351" class="paper-cover"><img src="files/journalcover/envint.jpg" class="img-fluid" alt=""></a></p>
+<div class="paper-body">
+<p><a href="https://doi.org/10.1016/j.envint.2026.110351" class="paper-title">Air pollution and mortality across socioeconomic groups in the Netherlands</a><br> <strong>Hlubek N.</strong>, Vienneau D., Wagtendonk A., van den Brekel L., Vaartjes I., Koop Y.<br> <em>Environment International</em>, 2026</p>
+<details class="abstract">
+<summary>
+Abstract
+</summary>
+<p><strong>Background</strong>:<br>
+We investigated whether associations between long-term air pollution and (cause-specific) mortality outcomes differ across socioeconomic position (SEP) groups in the Netherlands.<br>
+</p>
+<p><strong>Methods</strong>:<br>
+This nationwide cohort study included 9.9 million adults aged ≥30 years, from 2014 to 2019 in the Netherlands. We linked annual average residential exposure to particulate matter (PM2.5, PM10), and nitrogen dioxide (NO2) with household- and neighbourhood-level socioeconomic indicators (financial welfare, education, employment history), as well as the national death register. Using Cox proportional hazards models, we estimated hazard ratios (HRs) and absolute rate differences to assess relative and absolute inequalities in air pollution-related mortality.<br>
+</p>
+<p><strong>Results</strong>:<br>
+Higher air pollution exposure was associated with increased mortality across pollutants and mortality outcomes. For example, a 5 µg/m3 increase in PM2.5 was associated with a HR of 1.07 (95% CI: 1.06–1.08) for all natural-cause mortality. Relative risk estimates showed no consistent socioeconomic gradient and varied depending on the indicator used. Absolute rate differences, however, showed a more consistent pattern where groups with lower household-level socioeconomic position experienced greater absolute mortality burdens from air pollution, driven by their higher baseline mortality rates.<br>
+</p>
+<p><strong>Conclusion</strong>:<br>
+While air pollution increases mortality across all socioeconomic groups, disadvantaged populations bear disproportionate absolute burdens. Absolute risk measures reveal steeper health disparities than relative risks, underscoring the importance of reporting both metrics to fully capture environmental health inequities.<br>
+</p>
+</details>
+</div>
+</div>
+<div class="paper">
+<p><a href="https://doi.org/10.1016/j.scitotenv.2026.181543" class="paper-cover"><img src="files/journalcover/stoten.jpg" class="img-fluid" alt=""></a></p>
+<div class="paper-body">
+<p><a href="https://doi.org/10.1016/j.scitotenv.2026.181543" class="paper-title">Air pollution and ischemic stroke across socioeconomic groups in the Netherlands</a><br> <strong>Hlubek N.</strong>, Verhoeven J., Koop Y., Wagtendonk A., Vienneau D., Vaartjes I.<br> <em>Science of The Total Environment</em>, 2026</p>
+<details class="abstract">
+<summary>
+Abstract
+</summary>
+<p><strong>Introduction</strong>:<br>
+While air pollution is an established risk factor for ischemic stroke (IS), evidence on differential susceptibility across population subgroups remains limited. We investigated how associations between long-term air pollution exposure and IS risk varied across socioeconomic groups and urbanicity levels.<br>
+</p>
+<p><strong>Methods</strong>:<br>
+This population based cohort study included 11.9 million adults ≥18 years with linked residential exposure data for PM2.5, PM10, and NO2. Socioeconomic position was assessed using individual-level and area-level indicators including welfare, education, employment history, and composite scores. Time-varying Cox proportional hazards models examined associations between annual average air pollution at home addresses and incident IS risk across socioeconomic and urbanicity groups.<br>
+</p>
+<p><strong>Results</strong>:<br>
+During 2014-2019 follow-up, 152,868 incident IS cases were identified. Air pollution exposure was associated with increased IS risk for all pollutants: hazard ratios (HR) 1.07 [95% CI: 1.06; 1.08] per 5.0 μg/m³ PM2.5, 1.06 [1.05; 1.07] per 5.0 μg/m3 PM10, and 1.08 [1.08; 1.09] per 10 μg/m³ NO2. Associations were stronger in rural to moderately urbanised versus highly urbanised areas. Socioeconomic differences were most pronounced in rural to moderately urbanised areas, with consistently higher HRs among lower socioeconomic groups (e.g., lowest area-level education: HR 1.16 [1.08; 1.25] per 5.0 μg/m³ PM2.5), while disparities were minimal in highly urbanised areas.<br>
+</p>
+<p><strong>Conclusion</strong>:<br>
+Air pollution’s impact on IS risk varies significantly by socioeconomic position and urbanicity, with lower socioeconomic groups in rural to moderately urbanised areas showing increased vulnerability. These findings emphasize considering geographic and socioeconomic contexts in air pollution health assessments.</p>
+</details>
+</div>
+</div>
+<div class="paper">
+<p><a href="https://doi.org/10.1016/j.healthplace.2026.103633" class="paper-cover"><img src="files/journalcover/healthplace.jpg" class="img-fluid" alt=""></a></p>
+<div class="paper-body">
+<p><a href="https://doi.org/10.1016/j.healthplace.2026.103633" class="paper-title">Longitudinal air pollution exposure patterns by neighbourhood-level socioeconomic position and urbanicity</a><br> <strong>Hlubek N.</strong>, Koop Y., Wagtendonk A., Vaartjes I.<br> <em>Health &amp; Place</em>, 2026</p>
+<details class="abstract">
+<summary>
+Abstract
+</summary>
+<p><strong>Introduction</strong>:<br>
+Socioeconomic inequalities in residential air pollution exposure persist across Europe, yet few studies use multiple socioeconomic indicators to assess how exposure disparities change over time.<br>
+</p>
+<p><strong>Methods</strong>:<br>
+We analysed data from approximately 12 million individuals (≥18 years) in the Netherlands (2014-2019). Annual average air pollution concentrations (PM2.5, PM10, NO2) were estimated using dispersion models from the National Institute for Public Health and the Environment and linked to neighbourhood-level socioeconomic data (financial welfare, education, employment history). We calculated estimated marginal means to compare exposure across socioeconomic groups, stratified by urbanicity and used a concentration index to assess temporal trends in exposure disparities.<br>
+</p>
+<p><strong>Results</strong>:<br>
+Air pollution levels decreased substantially across all socioeconomic groups between 2014-2019. Exposure patterns varied fundamentally by urbanicity. In rural to moderately urbanised areas, higher socioeconomic neighbourhoods consistently showed higher exposure across all pollutants. In highly urbanised areas, exposure disparities were most pronounced for NO2, with lower socioeconomic neighbourhoods (welfare, employment, composite indicators) experiencing higher concentrations, while education showed a reversed pattern with higher exposures in more educated neighbourhoods. Low socioeconomic groups generally experienced stronger relative reductions in exposure. Temporal inequality analysis revealed generally stable or decreasing disparities, except for education in highly urbanised areas where the exposure gap between education levels widened.<br>
+</p>
+<p><strong>Conclusion</strong>:<br>
+While air pollution concentrations decreased for all socioeconomic groups, exposure patterns depend critically on urbanicity level and choice of socioeconomic indicator. Multiple indicators are needed to capture the complex pathways linking socioeconomic position to air pollution exposure, particularly in urban contexts.</p>
+</details>
+</div>
+</div>
+<div class="paper">
+<p><a href="https://doi.org/10.1016/j.envres.2025.123132" class="paper-cover"><img src="files/journalcover/envres.jpg" class="img-fluid" alt=""></a></p>
+<div class="paper-body">
+<p><a href="https://doi.org/10.1016/j.envres.2025.123132" class="paper-title">Assessing the impact of changes in home location on adolescent lung function: An exposome-wide natural experiment</a><br> <strong>Hlubek N.</strong>, Gehring U., Boer J. M.A., Gruzieva O., Koop Y., Koppelman G. H., Melen E., Vermeulen R., Vonk J. M., Vlaanderen J., Coloma F., Yu Z., Vaartjes I., Tonne C., Saucy A.<br> <em>Environmental Research</em>, 2025</p>
+<details class="abstract">
+<summary>
+Abstract
+</summary>
+<p><strong>Introduction</strong>:<br>
+Few studies have investigated the combined effects of multiple environmental exposures on adolescent respiratory health within an exposome framework. We explored whether changes in the external exposome due to residential relocation are associated with changes in lung function in children and adolescents.<br>
+</p>
+<p><strong>Methods</strong>:<br>
+Using data from two birth cohorts (BAMSE, PIAMA), we identified exposure clusters reflecting three domains of the urban exposome (traffic-related air pollution, built-up surface, and area-level socioeconomic disadvantage). A difference-in-difference analysis was conducted to investigate associations between changes in each exposome domain and changes in lung function (forced expiratory volume in 1 second, FEV1) among adolescents who relocated. Analyses were performed separately for each cohort.<br>
+</p>
+<p><strong>Results</strong>:<br>
+Among 1,465 individuals (BAMSE = 1,190; PIAMA = 275), 457 relocated at least once between ages 8 and 16. Two relocation trajectories were identified: moving to better or worse environments. In BAMSE, relocation to areas with higher levels of built-up surfaces (i.e., more impervious surface, less green space) was associated with a decrease in lung function, as reflected by FEV1 z-scores (β = -0.306, 95% CI: [-0.513, -0.098]). No significant associations were observed in the PIAMA cohort.<br>
+</p>
+<p><strong>Conclusion</strong>:<br>
+This study provides some evidence for a relationship between changes in the external exposome and adolescent lung function. Specifically, relocation to more built-up environments was associated with a decrease in lung function in the BAMSE cohort. Findings from this study support the application of an exposome framework in assessing the impact of multiple environmental exposures on health.</p>
+</details>
+</div>
+</div>
+<div class="paper">
+<p><a href="https://doi.org/10.3390/ijerph21080976" class="paper-cover"><img src="files/journalcover/ijenrph.jpg" class="img-fluid" alt=""></a></p>
+<div class="paper-body">
+<p><a href="https://doi.org/10.3390/ijerph21080976" class="paper-title">Temporal Trends in Air Pollution Exposure across Socioeconomic Groups in The Netherlands</a><br> <strong>Hlubek N.</strong>, Koop Y., Wagtendonk A., Vaartjes I.<br> <em>International Journal of Environmental Research and Public Health</em>, 2024</p>
+<details class="abstract">
+<summary>
+Abstract
+</summary>
+<p><strong>Introduction</strong>:<br>
+Air pollution exposure has been linked to detrimental health outcomes. While cross-sectional studies have demonstrated socioeconomic disparities in air pollution exposure, longitudinal evidence on these disparities remains limited. The current study investigates trends in residential air pollution exposure across socioeconomic groups in the Netherlands from 2014 to 2019.<br>
+</p>
+<p><strong>Methods</strong>:<br>
+Our dataset includes over 12.5 million individuals, aged 18 years and above, who resided in the Netherlands between 2014 and 2019, using Statistics Netherlands data. The address-level air pollution concentrations were estimated by dispersion models of the National Institute of Public Health and the Environment. We linked the exposure estimations of particulate matter &lt; 10 or &lt;2.5 μm (PM10, PM2.5) and nitrogen dioxide (NO2) to household-level socioeconomic data.<br>
+</p>
+<p><strong>Results</strong>:<br>
+In highly urbanized areas, individuals from both the lowest and highest socioeconomic groups were exposed to higher air pollution concentrations. Individuals from the lowest socioeconomic group were disproportionally located in highly urbanized and more polluted areas. The air pollution concentrations of PM10, PM2.5, and NO2 decreased between 2014 and 2019 for all the socioeconomic groups. The decrease in the annual average air pollution concentrations was the strongest for the lowest socioeconomic group, although differences in exposure between the socioeconomic groups remain. Further research is needed to define the health and equity implications.</p>
+</details>
+</div>
+</div>
+<div class="paper">
+<p><a href="https://doi.org/10.1111/jasp.12948" class="paper-cover"><img src="files/journalcover/sopsy.jpg" class="img-fluid" alt=""></a></p>
+<div class="paper-body">
+<p><a href="https://doi.org/10.1111/jasp.12948" class="paper-title">A social identity approach to COVID-19 transmission in hospital settings</a><br> <strong>Hlubek N.</strong>, Templeton A., Wiseman-Gregg K.<br> <em>Journal of Applied Social Psychology</em>, 2022</p>
+<details class="abstract">
+<summary>
+Abstract
+</summary>
+<p><strong>Introduction</strong>:<br>
+The COVID-19 pandemic poses a substantial risk of disease spread among healthcare workers (HCWs), making it important to understand what impacts perceived risk of COVID-19 spread in hospital settings and what causes HCWs to mitigate COVID-19 spread by following COVID-19 safety measures. One determinant of risk perception and safe behaviors is the influence of seeing others as group members. The current study aims to (a) evaluate how social identification as an HCW and trust in co-workers may influence perceived risk of COVID-19 spread and (b) explore how communication transparency, trust in leaders, and identity leadership are associated with self-reported adherence to COVID-19 safety guidance.<br>
+</p>
+<p><strong>Methods</strong>:<br>
+Using a correlational design, HCWs of a Scottish hospital were invited to participate in an online questionnaire measuring their perceptions of risk of COVID-19 transmission, measures of social identification as an HCW, perception of leaders as members of the team, trust in co-workers to follow the COVID-19 guidelines and perception of leaders to manage COVID-19 prevention effectively.<br>
+</p>
+<p><strong>Results</strong>:<br>
+Results showed that increased trust in co-workers was associated with reduced risk perception of COVID-19 transmission. Perceptions of transparent communication about COVID-19 were found to be associated with increased adherence to COVID-19 safety guidelines. Findings show the importance of the association between social identity processes and reduced risk perception and highlight the relationship between transparent communication strategies and self-reported adherence to COVID-19 guidelines, identity leadership, and trust in leaders to manage COVID-19 appropriately.</p>
+</details>
+</div>
+</div>
+<h4 class="subsection-title">
+Other Work
+</h4>
+<div class="paper">
+<p><a href="https://doi.org/10.1017/S0033291721004785" class="paper-cover"><img src="files/journalcover/psymed.jpg" class="img-fluid" alt=""></a></p>
+<div class="paper-body">
+<p><a href="https://doi.org/10.1017/S0033291721004785" class="paper-title">The magnitude of neurocognitive impairment is overestimated in depression: the role of motivation, debilitating momentary influences, and the overreliance on mean differences</a><br> Moritz S., Xie J., Penney D., Biehl L., <strong>Hlubek N.</strong>, Elmers J., Beblo T., Hottenrott B.<br> <em>Psychological Medicine</em>, 2022</p>
+<details class="abstract">
+<summary>
+Abstract
+</summary>
+<p><strong>Background</strong>:<br>
+Meta-analyses agree that depression is characterized by neurocognitive dysfunctions relative to nonclinical controls. These deficits allegedly stem from impairments in functionally corresponding brain areas. Increasingly, studies suggest that some performance deficits are in part caused by negative task-taking attitudes such as poor motivation or the presence of distracting symptoms. A pilot study confirmed that these factors mediate neurocognitive deficits in depression. The validity of these results is however questionable given they were based solely on self-report measures. The present study addresses this caveat by having examiners assess influences during a neurocognitive examination, which were concurrently tested for their predictive value on performance.<br>
+</p>
+<p><strong>Methods</strong>:<br>
+Thirty-three patients with depression and 36 healthy controls were assessed on a battery of neurocognitive tests. The examiner completed the Impact on Performance Scale, a questionnaire evaluating mediating influences that may impact performance.<br>
+</p>
+<p><strong>Results</strong>:<br>
+On average, patients performed worse than controls at a large effect size. When the total score of the Impact on Performance Scale was accounted for by mediation analysis and analyses of covariance, group differences were reduced to a medium effect size. A total of 30% of patients showed impairments of at least one standard deviation below the mean.<br>
+</p>
+<p><strong>Conclusion</strong>:<br>
+This study confirms that neurocognitive impairment in depression is likely overestimated; future studies should consider fair test-taking conditions. We advise researchers to report percentages of patients showing performance deficits rather than relying solely on overall group differences. This prevents fostering the impression that the majority of patients exert deficits, when in fact deficits are only true for a subgroup.</p>
+</details>
+</div>
+</div>
+<div class="paper">
+<p><a href="https://www.kerbe.info/inhalt/kerbe-forum-fuer-soziale-psychiatrie-heft-4-2022/" class="paper-cover"><img src="files/journalcover/kerbe.jpg" class="img-fluid" alt=""></a></p>
+<div class="paper-body">
+<p><a href="https://www.kerbe.info/inhalt/kerbe-forum-fuer-soziale-psychiatrie-heft-4-2022/" class="paper-title">Entwicklung der Sozialpsychiatrie in Europa - die Sicht von Mental Health Europe</a><br> Bomke P., <strong>Hlubek N.</strong><br> <em>Kerbe - Forum für soziale Psychiatrie</em>, 2022</p>
+</div>
+</div>
+<div class="paper">
+<p><a href="https://www.zwaenge.de/z-aktuell/themenspeicher/" class="paper-cover"><img src="files/journalcover/zaktuell.jpg" class="img-fluid" alt=""></a></p>
+<div class="paper-body">
+<p><a href="https://www.zwaenge.de/z-aktuell/themenspeicher/" class="paper-title">Zwangsstörungen während COVID-19: Sind Menschen mit Waschzwängen besonders betroffen</a><br> Jelinek J., <strong>Hlubek N.</strong>, Moritz S., Miegel F., Voderholzer U.<br> <em>z-aktuell</em>, 2020</p>
+</div>
+</div>
+</details>
+<details class="section">
+<summary>
+Presentations
+</summary>
+<div class="entry">
+<p><strong>Air pollution and ischemic stroke across socioeconomic groups in the Netherlands</strong><br> <strong>Hlubek N.</strong>, Koop Y., Verhoeven J., Wagtendonk A., Vienneau D., Vaartjes I.<br> <em>ESC Preventive Cardiology Conference</em>, Milan, 2025</p>
+</div>
+<div class="entry">
+<p><strong>Equity in exposure</strong><br> <strong>Hlubek N.</strong><br> <em><a href="https://ubdpolicy.eu/">UBD Policy</a> Workshop on Equity in Health Impact Assessment</em>, Utrecht, 2025</p>
+</div>
+<div class="entry">
+<p><strong>Impact of exposome relocation trajectories on childhood lung function</strong><br> <strong>Hlubek N.</strong>, et al.<br> <em>Annual EXPANSE meeting</em>, Munich, 2024</p>
+</div>
+<div class="entry">
+<p><strong>Social identity processes in hospital workers’ risk perception and adherence to safety guidance during the COVID-19 pandemic</strong><br> Templeton A., <strong>Hlubek N.</strong><br> <em>BPS Social Psychology Section Annual Conference</em>, online, 2022</p>
+</div>
+<div class="entry">
+<p><strong>A social identity approach to COVID-19 transmission in hospital settings: barriers and avenues to safe behaviour in healthcare workers</strong><br> <strong>Hlubek N.</strong>, Templeton A.<br> <em>Scottish Government COVID-19 Nosocomial Review Group</em>, online, 2021</p>
+</div>
+</details>
+<details class="section">
+<summary>
+Teaching &amp; Service
+</summary>
+<div class="entry">
+<p><strong>Teaching Assistant, Evidence-Based Case Reports</strong><br> Interactive tutorials for medical students<br> University Medical Center Utrecht, 2023–2025</p>
+</div>
+<div class="entry">
+<p><strong>PhD Council Board Member</strong><br> Julius Center, University Medical Center Utrecht, 2024–2025</p>
+</div>
+</details>
+</div>
 </div>
 
 
 
 
-
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -765,22 +719,8 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-<p>© 2026 Niklas Hlubek</p>
-</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">
-<p>Built with <a href="https://quarto.org/">Quarto</a></p>
-</div>
-  </div>
-</footer>
 
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

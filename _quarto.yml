@@ -1,9 +1,6 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - "*.qmd"
-    - "!blog/"
 
 website:
   favicon: files/NH.png
@@ -14,35 +11,13 @@ website:
   open-graph: true
   twitter-card:
     card-style: summary
-  navbar:
-    search: true
-    collapse: true
-    left:
-      - href: index.qmd
-        text: About
-      - href: about.qmd
-        text: CV
-      - href: research.qmd
-        text: Research 
-    right:
-      - icon: github
-        href: https://github.com/nhlubek
-        text: GitHub
-  back-to-top-navigation: true
-  page-footer:
-    left: "© 2026 Niklas Hlubek"
-    right: "Built with [Quarto](https://quarto.org/)"
 
 
 format:
   html:
-    theme:
-      light: [cosmo, theme-light.scss]
-      dark: [cosmo, theme-dark.scss]
+    theme: [cosmo, theme.scss]
     css: styles-extras.css
-    toc: true
-    smooth-scroll: true
+    page-layout: custom
+    toc: false
+    anchor-sections: false
     email-obfuscation: javascript
-    page-layout: article
-    code-copy: true
-    
