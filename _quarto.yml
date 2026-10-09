@@ -1,8 +1,6 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - files/fonts
 
 website:
   favicon: files/NH.png
@@ -18,7 +16,6 @@ website:
 format:
   html:
     theme: [cosmo, theme.scss]
-    css: styles-extras.css
     page-layout: custom
     toc: false
     anchor-sections: false
