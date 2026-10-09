@@ -1,16 +1,68 @@
 /* ===============================
+   FONTS — Libertinus Serif (SIL OFL, self-hosted)
+   =============================== */
+
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("files/fonts/libertinus/LibertinusSerif-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("files/fonts/libertinus/LibertinusSerif-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("files/fonts/libertinus/LibertinusSerif-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("files/fonts/libertinus/LibertinusSerif-SemiboldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("files/fonts/libertinus/LibertinusSerif-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Libertinus Serif";
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("files/fonts/libertinus/LibertinusSerif-BoldItalic.woff2") format("woff2");
+}
+
+/* ===============================
    PAGE
    =============================== */
 
 /* Single narrow column, no Quarto chrome */
 #quarto-content {
-    max-width: 52em;
+    max-width: 55.65em;
     margin: 0 auto;
     padding: 2em 1em;
 }
 
 strong {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /* ===============================
@@ -24,7 +76,7 @@ strong {
 }
 
 .profile-image {
-    flex: 0 0 14em;
+    flex: 0 0 16.1em;
     margin-top: 3.6em; /* aligns photo with the first line of the bio */
 }
 
@@ -65,7 +117,7 @@ strong {
 
     .profile-image {
         flex-basis: auto;
-        width: 14em;
+        width: 20em;
         max-width: 100%;
         margin: 0 auto;
     }
@@ -151,7 +203,7 @@ details.section > summary:hover {
 }
 
 .paper-body .paper-title {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 /* "+ Abstract" in grey, abstract as plain text below */
@@ -192,4 +244,11 @@ details.abstract > *:not(summary) {
 
 .entry p {
     margin: 0;
+}
+
+/* Keyword line under the bio */
+.focus p {
+    margin: 0.2em 0 0;
+    font-size: 0.9em;
+    color: var(--bs-secondary-color, #686868);
 }

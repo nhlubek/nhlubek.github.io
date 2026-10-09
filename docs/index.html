@@ -2,23 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Niklas Hlubek</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -38,13 +32,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="./files/NH.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ceda017abcdce30f61405b77487feadf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c831b9fd7ae5b029cdb565f5c9b13fae.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -76,15 +71,13 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles-extras.css">
 <meta property="og:title" content="Niklas Hlubek">
-<meta property="og:description" content="Epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht.">
-<meta property="og:image" content="https://nhlubek.github.io/files/journalcover/envint.jpg">
+<meta property="og:description" content="Epidemiologist working with real-world health data at UMC Utrecht: pharmacoepidemiology, causal inference and reproducible analysis in R.">
+<meta property="og:image" content="https://nhlubek.github.io/files/profile-square.jpg">
 <meta property="og:site_name" content="Niklas Hlubek">
-<meta property="og:image:alt" content="">
 <meta name="twitter:title" content="Niklas Hlubek">
-<meta name="twitter:description" content="Epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht.">
-<meta name="twitter:image" content="https://nhlubek.github.io/files/journalcover/envint.jpg">
+<meta name="twitter:description" content="Epidemiologist working with real-world health data at UMC Utrecht: pharmacoepidemiology, causal inference and reproducible analysis in R.">
+<meta name="twitter:image" content="https://nhlubek.github.io/files/profile-square.jpg">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image:alt" content="">
 </head>
 
 <body class="fullcontent quarto-light">
@@ -101,27 +94,30 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="profile-container">
 <div class="profile-image">
-<!-- Swap for a headshot, e.g. files/headshot.jpg -->
-<p><img src="files/NH.png" class="img-fluid" alt="Niklas Hlubek"></p>
+<p><img src="files/head-colour.jpg" class="img-fluid" alt="Niklas Hlubek"></p>
 <div class="profile-contact">
 <p><script type="text/javascript">
 <!--
 h='&#x75;&#x6d;&#x63;&#x75;&#116;&#114;&#x65;&#x63;&#104;&#116;&#46;&#110;&#108;';a='&#64;';n='&#110;&#46;&#104;&#108;&#x75;&#98;&#x65;&#x6b;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
 // -->
-</script><noscript>n.hlubek at umcutrecht dot nl</noscript><br> <a href="files/cv.pdf">Curriculum Vitae</a><br> <a href="https://scholar.google.com/citations?user=Lkd3H1kAAAAJ">Google Scholar</a><br> <a href="https://www.linkedin.com/in/niklas-hlubek/">LinkedIn</a></p>
+</script><noscript>n.hlubek at umcutrecht dot nl</noscript><br> <a href="files/cv.pdf">Curriculum Vitae</a><br> <a href="https://scholar.google.com/citations?user=Lkd3H1kAAAAJ">Google Scholar</a><br> <a href="https://github.com/nhlubek">GitHub</a><br> <a href="https://www.linkedin.com/in/niklas-hlubek/">LinkedIn</a></p>
 </div>
 </div>
 <div class="profile-content">
 <h2 class="main-title">
 Niklas Hlubek
 </h2>
-<p>I am an epidemiologist and statistical programmer in the Real-World Evidence group at <a href="https://www.umcutrecht.nl/en">UMC Utrecht</a>, working on drug safety studies with data partners across Europe. My work focuses on target trial emulation and reproducible R pipelines for regulatory decision-making.</p>
-<p>I hold a PhD in Epidemiology from Utrecht University, where I studied socioeconomic inequalities in air pollution exposure and their health effects using linked nationwide Dutch registry data. It was funded by a Marie Skłodowska-Curie fellowship within the EU <a href="https://surreal-itn.eu/">SURREAL</a> network.</p>
-<p>Before that, I worked in clinical research and European mental health policy.</p>
+<p>I am an health data scientist working with large-scale real-world health data.</p>
+<p>I work in the <a href="https://research.umcutrecht.nl/research-groups/real-world-evidence-group/">Real-World Evidence group</a> at UMC Utrecht on studies of medicines and vaccines, using health care databases from across Europe. I write software to check and analyse these data, and apply causal inference methods in studies that inform regulatory decisions.</p>
+<p>I did my PhD in Epidemiology at Utrecht University as a Marie Skłodowska-Curie fellow in the EU <a href="https://surreal-itn.eu/">SURREAL</a> network, using Dutch registry data on more than 12 million people to study socioeconomic inequalities in health.</p>
+<p>Before that, I worked in clinical psychology research and European mental health policy.</p>
+<div class="focus">
+<p>Real-world data · Pharmacoepidemiology · Causal inference · Data quality · Reproducible R</p>
+</div>
 <details class="section">
 <summary>
-Research
+<strong>Publications</strong>
 </summary>
 <div class="paper">
 <p><a href="https://doi.org/10.1016/j.envint.2026.110351" class="paper-cover"><img src="files/journalcover/envint.jpg" class="img-fluid" alt=""></a></p>
@@ -251,7 +247,7 @@ Results showed that increased trust in co-workers was associated with reduced ri
 </div>
 </div>
 <h4 class="subsection-title">
-Other Work
+Other publications
 </h4>
 <div class="paper">
 <p><a href="https://doi.org/10.1017/S0033291721004785" class="paper-cover"><img src="files/journalcover/psymed.jpg" class="img-fluid" alt=""></a></p>
@@ -290,7 +286,7 @@ This study confirms that neurocognitive impairment in depression is likely overe
 </details>
 <details class="section">
 <summary>
-Presentations
+<strong>Talks &amp; Teaching</strong>
 </summary>
 <div class="entry">
 <p><strong>Air pollution and ischemic stroke across socioeconomic groups in the Netherlands</strong><br> <strong>Hlubek N.</strong>, Koop Y., Verhoeven J., Wagtendonk A., Vienneau D., Vaartjes I.<br> <em>ESC Preventive Cardiology Conference</em>, Milan, 2025</p>
@@ -307,11 +303,9 @@ Presentations
 <div class="entry">
 <p><strong>A social identity approach to COVID-19 transmission in hospital settings: barriers and avenues to safe behaviour in healthcare workers</strong><br> <strong>Hlubek N.</strong>, Templeton A.<br> <em>Scottish Government COVID-19 Nosocomial Review Group</em>, online, 2021</p>
 </div>
-</details>
-<details class="section">
-<summary>
-Teaching &amp; Service
-</summary>
+<h4 class="subsection-title">
+Teaching &amp; service
+</h4>
 <div class="entry">
 <p><strong>Teaching Assistant, Evidence-Based Case Reports</strong><br> Interactive tutorials for medical students<br> University Medical Center Utrecht, 2023–2025</p>
 </div>

@@ -1,23 +1,24 @@
 ---
 pagetitle: "Niklas Hlubek"
+image: files/profile-square.jpg
 open-graph:
   title: "Niklas Hlubek"
-  description: "Epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht."
+  description: "Epidemiologist working with real-world health data at UMC Utrecht: pharmacoepidemiology, causal inference and reproducible analysis in R."
 twitter-card:
   title: "Niklas Hlubek"
-  description: "Epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht."
+  description: "Epidemiologist working with real-world health data at UMC Utrecht: pharmacoepidemiology, causal inference and reproducible analysis in R."
 ---
 
 ::::: {.profile-container}
 
 :::: {.profile-image}
-<!-- Swap for a headshot, e.g. files/headshot.jpg -->
-![](files/NH.png){fig-alt="Niklas Hlubek"}
+![](files/head-colour.jpg){fig-alt="Niklas Hlubek"}
 
 ::: {.profile-contact}
 [n.hlubek@umcutrecht.nl](mailto:n.hlubek@umcutrecht.nl)<br>
 [Curriculum Vitae](files/cv.pdf)<br>
 [Google Scholar](https://scholar.google.com/citations?user=Lkd3H1kAAAAJ)<br>
+[GitHub](https://github.com/nhlubek)<br>
 [LinkedIn](https://www.linkedin.com/in/niklas-hlubek/)
 :::
 ::::
@@ -26,14 +27,20 @@ twitter-card:
 
 <h2 class="main-title">Niklas Hlubek</h2>
 
-I am an epidemiologist and statistical programmer in the Real-World Evidence group at [UMC Utrecht](https://www.umcutrecht.nl/en), working on drug safety studies with data partners across Europe. My work focuses on target trial emulation and reproducible R pipelines for regulatory decision-making.
+I am an health data scientist working with large-scale real-world health data.
 
-I hold a PhD in Epidemiology from Utrecht University, where I studied socioeconomic inequalities in air pollution exposure and their health effects using linked nationwide Dutch registry data. It was funded by a Marie Skłodowska-Curie fellowship within the EU [SURREAL](https://surreal-itn.eu/) network.
+I work in the [Real-World Evidence group](https://research.umcutrecht.nl/research-groups/real-world-evidence-group/) at UMC Utrecht on studies of medicines and vaccines, using health care databases from across Europe. I write software to check and analyse these data, and apply causal inference methods in studies that inform regulatory decisions.
 
-Before that, I worked in clinical research and European mental health policy.
+I did my PhD in Epidemiology at Utrecht University as a Marie Skłodowska-Curie fellow in the EU [SURREAL](https://surreal-itn.eu/) network, using Dutch registry data on more than 12 million people to study socioeconomic inequalities in health.
+
+Before that, I worked in clinical psychology research and European mental health policy.
+
+::: {.focus}
+Real-world data · Pharmacoepidemiology · Causal inference · Data quality · Reproducible R
+:::
 
 <details class="section">
-<summary>Research</summary>
+<summary>**Publications**</summary>
 
 :::: {.paper}
 [![](files/journalcover/envint.jpg){fig-alt=""}](https://doi.org/10.1016/j.envint.2026.110351){.paper-cover}
@@ -212,7 +219,7 @@ Results showed that increased trust in co-workers was associated with reduced ri
 :::
 ::::
 
-<h4 class="subsection-title">Other Work</h4>
+<h4 class="subsection-title">Other publications</h4>
 
 :::: {.paper}
 [![](files/journalcover/psymed.jpg){fig-alt=""}](https://doi.org/10.1017/S0033291721004785){.paper-cover}
@@ -264,7 +271,7 @@ Jelinek J., **Hlubek N.**, Moritz S., Miegel F., Voderholzer U.<br>
 </details>
 
 <details class="section">
-<summary>Presentations</summary>
+<summary>**Talks & Teaching**</summary>
 
 ::: {.entry}
 **Air pollution and ischemic stroke across socioeconomic groups in the Netherlands**<br>
@@ -296,10 +303,7 @@ Templeton A., **Hlubek N.**<br>
 *Scottish Government COVID-19 Nosocomial Review Group*, online, 2021
 :::
 
-</details>
-
-<details class="section">
-<summary>Teaching & Service</summary>
+<h4 class="subsection-title">Teaching & service</h4>
 
 ::: {.entry}
 **Teaching Assistant, Evidence-Based Case Reports**<br>

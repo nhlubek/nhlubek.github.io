@@ -1,13 +1,15 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - files/fonts
 
 website:
   favicon: files/NH.png
   title: "Niklas Hlubek"
   site-url: https://nhlubek.github.io
-  description: "Niklas Hlubek, epidemiologist and statistical programmer working on real-world evidence and drug safety at UMC Utrecht."
-  image: files/NH.png
+  description: "Epidemiologist working with real-world health data at UMC Utrecht: pharmacoepidemiology, causal inference and reproducible analysis in R."
+  image: files/profile-square.jpg
   open-graph: true
   twitter-card:
     card-style: summary

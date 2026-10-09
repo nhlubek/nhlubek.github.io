@@ -1,10 +1,46 @@
-# Ignore a specific file
-present/
-.env
-config.json
+# This repo is public (GitHub Pages): everything committed is readable by anyone,
+# including old versions in the history. Keep personal material out.
 
+# ---- Personal / private ------------------------------------------------------
+# CV source lives outside this repo (~/Documents/cv); only the public build
+# files/cv.pdf is committed. Safety net in case the folder is copied back:
+cv/
+
+# Raw / unpublished photos (original shows the room) – only crops in files/ are public
+files/_variants/
+*.heic
+*.HEIC
+
+# Documents that are never part of the site (applications, letters, drafts)
+*.pages
+*.docx
+*.doc
+*.xlsx
+*.key
+*.numbers
+DELETE-LATER/
+
+# Unpublished drafts
+present/
+
+# ---- Secrets / credentials -----------------------------------------------------
+.env
+.env.*
+config.json
+*.pem
+.Renviron
+
+# ---- Local tool state (can contain paths, history, prompts) ---------------------
 /.quarto/
 **/*.quarto_ipynb
 _quarto_internal_scss_error.scss
+_site/
+.Rhistory
+.RData
+.Rproj.user/
+.aider*
+.claude/
+.vscode/
+.idea/
 
 .DS_Store
